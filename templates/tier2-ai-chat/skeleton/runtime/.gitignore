@@ -1,0 +1,12 @@
+# runtime/ — per-port, per-machine state for Path B (OpenCode bridge).
+# Keep the directory under version control (committed .gitignore), but ignore
+# every file inside it. The bootstrap script (scripts/start-opencode-server.ps1)
+# writes runtime/opencode-url.txt and runtime/opencode-sessions.json on demand;
+# each file resolves to whatever port OpenCode happened to pick on the host that
+# ran the script.
+
+# Ignore everything in this directory.
+*
+
+# Except this file.
+!.gitignore

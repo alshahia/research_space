@@ -1,0 +1,54 @@
+{
+  "name": "tier2-saas-bundle-skeleton",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tier 2 SaaS bundle spine — Vite 8 + React 19 + React Router 7 (Declarative) + Express 4 + Clerk React + Stripe + Resend. Adds auth (Clerk), billing (Stripe + webhook signature verification + customer portal), and transactional email (Resend). Single Node process serves both SPA and API.",
+  "scripts": {
+    "dev:vite": "vite",
+    "dev:server": "tsx watch server.ts",
+    "dev": "concurrently -n vite,server -c blue,magenta \"npm run dev:vite\" \"npm run dev:server\"",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "start": "tsx server.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.2",
+    "@clerk/clerk-react": "^5.61.3",
+    "stripe": "^22.5.0",
+    "@stripe/stripe-js": "^9.13.0",
+    "resend": "^6.20.0",
+    "express": "^4.22.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@types/express": "^5.0.6",
+    "@types/cors": "^2.8.19",
+    "@vitejs/plugin-react": "^6.0.5",
+    "@clerk/express": "^2.1.56",
+    "typescript": "^5.9.3",
+    "vite": "^8.2.1",
+    "vitest": "^4.1.10",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "jsdom": "^30.0.1",
+    "tsx": "^4.23.12",
+    "concurrently": "^10.0.4",
+    "tailwindcss": "^4.3.3",
+    "@tailwindcss/vite": "^4.3.3"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

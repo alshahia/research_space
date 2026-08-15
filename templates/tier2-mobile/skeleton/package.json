@@ -1,0 +1,63 @@
+{
+  "name": "tier2-mobile-skeleton",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tier 2 mobile spine — Vite + React 19 + TypeScript strict + Tailwind v4 + Drizzle + Vitest. Adds multi-target mobile shell: Expo SDK 57 (default) OR Capacitor 7, toggled via mobile.config.ts. Same UI layer across both targets.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "switch-target": "bash scripts/switch-target.sh",
+    "expo:doctor": "bash scripts/expo-doctor.sh",
+    "cap:doctor": "bash scripts/cap-doctor.sh",
+    "postinstall": "node -e \"console.log('mobile-target hint: see scripts/switch-target.sh to flip Expo <-> Capacitor')\""
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "drizzle-orm": "^0.45.2",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.6.0",
+    "@supabase/supabase-js": "^2.112.3"
+  },
+  "optionalDependencies": {
+    "expo": "^57.0.12",
+    "expo-router": "^57.0.12",
+    "expo-linking": "^57.0.5",
+    "expo-updates": "^57.0.13",
+    "expo-status-bar": "^57.0.1",
+    "react-native": "^0.87.0",
+    "react-native-safe-area-context": "^5.9.0",
+    "react-native-screens": "^4.27.0",
+    "@clerk/expo": "^4.2.8",
+    "lucide-react-native": "^1.31.0",
+    "@capacitor/core": "^7.6.8",
+    "@capacitor/cli": "^7.6.8",
+    "@capacitor/app": "^7.1.2",
+    "@capacitor/ios": "^7.6.8",
+    "@capacitor/android": "^7.6.8",
+    "@capacitor/haptics": "^7.0.5",
+    "@capacitor/keyboard": "^7.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "typescript": "^5.9.3",
+    "vite": "^8.2.1",
+    "vitest": "^4.1.10",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "jsdom": "^30.0.1",
+    "tailwindcss": "^4.3.3",
+    "@tailwindcss/vite": "^4.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "tier2-storefront-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Medusa 2 commerce backend (Path B). Self-hosted Postgres + Redis, REST under /store/*.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "medusa develop",
+    "build": "medusa build",
+    "start": "medusa start",
+    "seed": "medusa db:seed",
+    "migrate": "medusa db:migrate",
+    "db:create": "medusa db:create",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "type-check": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@medusajs/js-sdk": "^2.19.0",
+    "@medusajs/medusa": "^2.19.0",
+    "@medusajs/product": "^2.19.0",
+    "awilix": "^8.0.1",
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.4.1",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "@medusajs/cli": "^2.19.0",
+    "@types/node": "^22.7.0",
+    "@types/supertest": "^6.0.2",
+    "pg-mem": "^3.0.5",
+    "supertest": "^7.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^4.0.0",
+    "zod": "^4.4.0"
+  },
+  "optionalDependencies": {
+    "pg-mem": "^3.0.5"
+  }
+}

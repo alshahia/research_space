@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "categories": [
+    { "handle": "electronics", "name": "Electronics" },
+    { "handle": "apparel", "name": "Apparel" },
+    { "handle": "home", "name": "Home" }
+  ],
+  "products": [
+    {
+      "title": "Mechanical Keyboard — Cherry MX Brown",
+      "description": "Tactile mechanical keyboard with hot-swap switches, RGB, USB-C.",
+      "handle": "mechanical-keyboard-cherry-mx-brown",
+      "thumbnail": "/seed/keyboard.jpg",
+      "category": "electronics",
+      "price": 14900,
+      "variants": [
+        { "title": "US ANSI", "sku": "KB-MXBR-ANSI", "price": 14900 },
+        { "title": "UK ISO", "sku": "KB-MXBR-ISO", "price": 15900 }
+      ]
+    },
+    {
+      "title": "USB-C Hub — 7-in-1",
+      "description": "HDMI 4K@60 + 2xUSB-A 3.0 + SD/microSD + 100W PD passthrough.",
+      "handle": "usb-c-hub-7-in-1",
+      "thumbnail": "/seed/usb-c-hub.jpg",
+      "category": "electronics",
+      "price": 4900,
+      "variants": [
+        { "title": "Default", "sku": "HUB-7IN1", "price": 4900 }
+      ]
+    },
+    {
+      "title": "Wool Crewneck Sweater",
+      "description": "100% merino wool, unisex sizing, machine-washable.",
+      "handle": "wool-crewneck-sweater",
+      "thumbnail": "/seed/sweater.jpg",
+      "category": "apparel",
+      "price": 11900,
+      "variants": [
+        { "title": "S", "sku": "WL-CRW-S", "price": 11900 },
+        { "title": "M", "sku": "WL-CRW-M", "price": 11900 },
+        { "title": "L", "sku": "WL-CRW-L", "price": 11900 }
+      ]
+    },
+    {
+      "title": "Selvedge Denim Jeans — Slim Straight",
+      "description": "14oz Japanese selvedge denim, slim straight fit, raw unwashed.",
+      "handle": "selvedge-denim-slim-straight",
+      "thumbnail": "/seed/denim.jpg",
+      "category": "apparel",
+      "price": 16500,
+      "variants": [
+        { "title": "30W x 32L", "sku": "DN-SLV-30-32", "price": 16500 },
+        { "title": "32W x 32L", "sku": "DN-SLV-32-32", "price": 16500 }
+      ]
+    },
+    {
+      "title": "Linen Bedsheet Set — Queen",
+      "description": "Pre-washed French linen, includes fitted + flat + 2 pillowcases.",
+      "handle": "linen-bedsheet-set-queen",
+      "thumbnail": "/seed/linen-bedsheet.jpg",
+      "category": "home",
+      "price": 18900,
+      "variants": [
+        { "title": "Dune", "sku": "LN-BED-Q-DUN", "price": 18900 },
+        { "title": "Slate", "sku": "LN-BED-Q-SLT", "price": 18900 }
+      ]
+    },
+    {
+      "title": "Pour-Over Coffee Dripper — Ceramic",
+      "description": "Single-cup pour-over, ceramic cone fits standard carafes, dishwasher-safe.",
+      "handle": "pour-over-coffee-dripper-ceramic",
+      "thumbnail": "/seed/pour-over.jpg",
+      "category": "home",
+      "price": 4500,
+      "variants": [
+        { "title": "Bone White", "sku": "PO-CER-BW", "price": 4500 },
+        { "title": "Charcoal", "sku": "PO-CER-CC", "price": 4500 }
+      ]
+    }
+  ]
+}

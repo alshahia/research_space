@@ -1,0 +1,30 @@
+{
+  "name": "tier2-storefront",
+  "title": "Tier 2 — Storefront (Path B)",
+  "description": "Tier 1 + commerce backend (Medusa 2 + Postgres) + Next.js 15 storefront + Stripe Checkout. Self-hosted, full data ownership. One-template override of the Vite spine.",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "workspaces": ["apps/*"],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "npm-run-all -p dev:backend dev:storefront",
+    "dev:backend": "npm --workspace apps/backend run dev",
+    "dev:storefront": "npm --workspace apps/storefront run dev",
+    "build": "npm --workspace apps/backend run build && npm --workspace apps/storefront run build",
+    "start": "npm-run-all -p start:backend start:storefront",
+    "start:backend": "npm --workspace apps/backend run start",
+    "start:storefront": "npm --workspace apps/storefront run start",
+    "test": "npm-run-all -p test:backend test:storefront",
+    "test:backend": "npm --workspace apps/backend test -- --run",
+    "test:storefront": "npm --workspace apps/storefront test -- --run",
+    "lint": "npm-run-all -p lint:backend lint:storefront",
+    "lint:backend": "npm --workspace apps/backend run lint",
+    "lint:storefront": "npm --workspace apps/storefront run lint"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

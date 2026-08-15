@@ -1,0 +1,20 @@
+// vitest.config.ts — Tier 2 SaaS bundle skeleton
+// jsdom env + vite react plugin + `@/*` alias mirroring vite.config.ts.
+import { defineConfig } from "vitest/config";
+import react from "@vitejs/plugin-react";
+import { fileURLToPath, URL } from "node:url";
+
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
+    },
+  },
+  test: {
+    environment: "jsdom",
+    globals: true,
+    include: ["tests/**/*.test.ts", "tests/**/*.test.tsx"],
+    setupFiles: [],
+  },
+});

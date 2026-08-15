@@ -1,0 +1,23 @@
+/* src/index.css — Tier 1 standard skeleton
+ * Tailwind v4 CSS-first @theme block. No JS config.
+ */
+@import "tailwindcss";
+
+@theme {
+  --color-brand: oklch(0.6 0.2 250);
+  --color-brand-fg: oklch(0.98 0 0);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: white;
+  color: oklch(0.2 0 0);
+}

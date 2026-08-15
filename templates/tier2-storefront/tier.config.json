@@ -1,0 +1,50 @@
+{
+  "templateId": "tier2-storefront",
+  "tier": 2,
+  "kind": 3,
+  "title": "Tier 2 — Storefront (Path B)",
+  "description": "Tier 1 + commerce backend (Medusa 2 + Postgres) + Next.js 15 storefront + Stripe Checkout. Self-hosted, full data ownership.",
+  "locales": ["en", "de", "fr"],
+  "locale": "en",
+  "dir": "ltr",
+  "font": "system-sans",
+  "storefront": {
+    "path": "B",
+    "commerce": "medusa-b2c-self-hosted",
+    "backendFramework": "medusa",
+    "frontendFramework": "nextjs-15",
+    "paymentProvider": "stripe",
+    "countryDefault": "us",
+    "currencies": {
+      "us": "usd",
+      "gb": "gbp",
+      "de": "eur"
+    },
+    "supportedCountries": ["us", "gb", "de"]
+  },
+  "defaults": {
+    "commerce": "medusa-b2c-self-hosted",
+    "backendFramework": "medusa",
+    "frontendFramework": "nextjs-15",
+    "paymentProvider": "stripe"
+  },
+  "deliberateOverrides": {
+    "nextVersion": {
+      "requested": "^15.5.0",
+      "rationale": "User-locked 2026-08-14 (Path B storefront uses Next.js 15 App Router, not 16). Matrix pins Next 16 for Tier-1 standard harness only.",
+      "decisionDate": "2026-08-14",
+      "gateImpact": "Matrix is canonical — gate pins ^16.3.0 vs npm latest 16.3.1 (16>=16, 3>0 = PASS). Package.json pin is independent; no drift row."
+    }
+  },
+  "featureFlags": {
+    "monorepo": true,
+    "serverActions": true,
+    "stripeCheckout": true,
+    "stripeWebhook": true,
+    "countryCodeRouting": true,
+    "medusaAdmin": false,
+    "medusaStoreCores": true
+  },
+  "buildOrder": 4,
+  "blocks": ["apps/backend", "apps/storefront"]
+}

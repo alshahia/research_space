@@ -1,0 +1,8 @@
+# Tier 2 SaaS bundle — gitignore
+node_modules
+dist
+.env
+.env.*
+!.env.example
+npm-debug.log*
+.vite

@@ -1,0 +1,50 @@
+{
+  "name": "tier2-ai-chat-skeleton",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tier 2 AI chat spine — Vite + React 19 + TypeScript strict + Tailwind v4 + Drizzle + Vitest. Adds dual-path AI SDK: Path A (Vercel AI SDK 7 direct via @ai-sdk/openai / @ai-sdk/anthropic / @ai-sdk/google) + Path B (OpenCode SDK bridge via @opencode-ai/sdk). Path picked at scaffold time via tier.config.json modelPath axis.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "opencode:serve": "pwsh scripts/start-opencode-server.ps1"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "drizzle-orm": "^0.45.2",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.6.0",
+    "ai": "^7.0.64",
+    "@ai-sdk/openai": "^4.0.41",
+    "@ai-sdk/anthropic": "^4.0.38",
+    "@ai-sdk/google": "^4.0.44",
+    "@opencode-ai/sdk": "^1.18.18",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "rehype-highlight": "^7.0.2",
+    "lucide-react": "^1.31.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "typescript": "^5.9.3",
+    "vite": "^8.2.1",
+    "vitest": "^4.1.10",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "jsdom": "^30.0.1",
+    "tailwindcss": "^4.3.3",
+    "@tailwindcss/vite": "^4.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

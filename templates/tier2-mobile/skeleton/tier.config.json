@@ -1,0 +1,19 @@
+{
+  "title": "tier2-mobile",
+  "locale": "en",
+  "dir": "ltr",
+  "font": "system-sans",
+  "mobile": {
+    "target": "expo",
+    "deepLinkScheme": "myapp://",
+    "appId": "com.example.tier2mobile",
+    "appName": "tier2-mobile"
+  },
+  "featureFlags": {
+    "deepLinking": true,
+    "offlineCache": false,
+    "pushNotifications": false,
+    "otaUpdates": false,
+    "expoTypedRoutes": true
+  }
+}

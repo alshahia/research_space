@@ -1,0 +1,104 @@
+# Dependabot / drift schedule
+#
+# Weekly drift check for the agent-app-template family. Two checks per week:
+#   - npm audit on every template's skeleton (security CVE surfacing)
+#   - npm view <pkg> version per pinned row in 02_STACK_MATRIX.md (drift)
+#
+# The drift check is implemented as a small TypeScript script with zero
+# external deps (see scripts/verify-stack-claims.ts at the workspace root);
+# this workflow is the cadence wrapper, not the verifier itself.
+#
+# `verify-stack-claims.ts` is run via `node scripts/verify-stack-claims.ts`
+# and exits 1 when a pinned version has drifted. A separate `npm audit` step
+# uses the npm registry's own advisory feed.
+#
+# Tier2 templates ship `package.json` files in Phase 3.1+. The `--directories`
+# paths below forward-declare all 7 templates plus the workspace root so the
+# schedule lands correctly the moment a template appears.
+
+version: 2
+
+updates:
+  - package-ecosystem: "npm"
+    directory: "/templates/tier1-standard/skeleton"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "template/tier1-standard"
+
+  - package-ecosystem: "npm"
+    directory: "/templates/tier2-ai-chat/skeleton"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "template/tier2-ai-chat"
+
+  - package-ecosystem: "npm"
+    directory: "/templates/tier2-mobile/skeleton"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "template/tier2-mobile"
+
+  - package-ecosystem: "npm"
+    directory: "/templates/tier2-storefront/skeleton"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "template/tier2-storefront"
+
+  - package-ecosystem: "npm"
+    directory: "/templates/tier2-saas-bundle/skeleton"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "template/tier2-saas-bundle"
+
+  - package-ecosystem: "npm"
+    directory: "/templates/cinematic-landing/skeleton"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "template/cinematic-landing"
+
+  - package-ecosystem: "npm"
+    directory: "/templates/tier0-minimal/skeleton"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "template/tier0-minimal"

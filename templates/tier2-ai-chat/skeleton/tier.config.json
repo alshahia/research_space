@@ -1,0 +1,16 @@
+{
+  "title": "tier2-ai-chat",
+  "locale": "en",
+  "dir": "ltr",
+  "font": "system-sans",
+  "modelPath": "direct",
+  "modelFamily": "google",
+  "featureFlags": {
+    "stopButton": true,
+    "regenerateButton": true,
+    "modelSwitcher": false,
+    "markdownRendering": true,
+    "codeHighlighting": true,
+    "opencodeSessions": true
+  }
+}

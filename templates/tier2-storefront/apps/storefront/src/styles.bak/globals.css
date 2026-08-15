@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #1c1917;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: theme("fontFamily.sans");
+}
+
+.product-card {
+  @apply border border-neutral-200 rounded-lg p-4 hover:shadow-md transition-shadow;
+}

@@ -1,0 +1,1120 @@
+what is an animated websiteAn animated website is a web page that uses motion, moving graphics, and transitions built with code like CSS or JavaScript. Key features include scrolling effects, hover animations, and loading screens.For a quick look at cool effects and examples in web design:Common Types of Web AnimationScroll-driven effects: Elements move, fade in, or transform as the user scrolls down the page.Hover reactions: Buttons or images change size or color when a mouse pointer rests on them.Loading transitions: Creative intro screens or fading logos greet the user while the main content loads.Accent highlights: Subtle movements draw the eye to important buttons or text boxes.For a quick guide on how simple motion properties work in modern styling:1mThe Easy Way to Do Web Animations35K views · 7 months agoYouTube · SajidWhy Sites Use AnimationGuide attention: Directs the visitor's eye to important text or call-to-action buttons.Confirm actions: Shows an instant visual response when a user clicks a link or submits a form.Show brand personality: Gives the site a unique and memorable feel instead of looking like a flat, static document.If you're planning to build one, would you like to know about the best tools to create animations or how to keep animations from slowing down your site?samanthajane.auStatic vs. animated websites: Which is better for your business?Should your website have animations or be completely static? I think animations should be used minimally and purposefully to guide...YouTube·Manu Arora10 Websites for Insane UI Animations | Manu Arorawhat's going what's trending and in this video i'm going to talk about my 10 picks on how you can refer to animations. how you can...2mYouTube·Punit ChawlaBest UI Animation Website! 🔥 #uidesign #webdesign #animationi just found a new website for designers that literally has hundreds of different effects animations. and interactions you'll find...0:54Show allprovide me with all kind/tech/type/genre of itWeb animation can be classified across four distinct categories: the animation types, the design genres, the core interaction behaviors, and the coding technologies that power them.1. Types of Web AnimationThese describe the fundamental movements and visual transitions applied to webpage layouts.Parallax Scrolling: The background images move slower than the foreground elements. This creates a faux-3D illusion of depth as you navigate down the page.Liquid Motion: Organic, fluid, water-like transitions. Graphic shapes melt, morph, or flow smoothly to reveal new text or images.Kinetic Typography: Text that moves, scales, stretches, or spins. It turns boring, static headlines into expressive focal points.Page Transitions: Full-screen wipes, fades, or slide-ins that mask the loading time when moving from one page to another.This project is a demonstration of parallax scrolling — a web design ...GitHubParallax effect website design: best practices and examplesJustinmind31 Cool Website Animations Examples And Effects for InspirationSVGator31 Cool Website Animations Examples And Effects for InspirationSVGator2. Design & Aesthetic GenresGenres define the overall look, artistic style, and emotional mood of the animated website.3D & Immersive: Sites that drop users into interactive, three-dimensional spaces. Users can rotate objects or explore rooms.Gamified Web Design: The site functions like a video game. Users earn points, move a character, or unlock content by exploring.Brutalist / Techno: Sharp, erratic, and intentionally chaotic animations. They often feature flashing cursors, retro glitching, and rapid layout shifts.Minimalist Micro-Movement: Ultra-clean layouts that stay mostly static but use tiny, precise animations to emphasize luxury or elegance.30 Inspiring Web Design Concepts with 3D Graphics — Design4UsersDesign4Users30+ Fantastic 3D Website Examples with Fully Immersive Designs ...GraphicMama3d websites - 36+ Best 3d Web Design Ideas 2026 | 99designs99Designs3. Interaction BehaviorsThese classify how the animation is triggered and how it interacts with human input.Microinteractions: Small, isolated visual feedback loops. Examples include a heart icon bursting with color when clicked or a toggle switch sliding shut.Cursor-Tracking: Elements on the screen magnetically pull toward, follow, or scatter away from your mouse pointer as it moves.Scroll-Triggered Reveal: Hidden content smoothly fades or slides into view exactly when it crosses into the user's viewport.Hover State feedback: Immediate physical change (scaling, glowing, spinning) when a cursor hovers over a functional UI element.Elevate Your e-commerce Journey with Animated UX ...ToptalThe Impact of Microinteractions on UI Design - UX Design InstituteUX Design InstituteBetter UX Through Microinteractions | Toptal®ToptalBest web micro-interaction examples and guidelines for 2025 ...Justinmind4. Code & Underlying TechnologyThe programming languages, frameworks, and engine types used to render the motion.CSS3 Animation: Best for lightweight, straightforward movements like button hovers, basic rotations, and simple loading spinners.JavaScript Libraries: Powerhouse engines like GSAP (GreenSock) or Framer Motion. They allow developers to construct complex, multi-step timelines and scroll triggers.WebGL / Three.js: Low-level hardware-accelerated tech used to render complex 3D graphics, particle networks, and high-performance visual effects inside the browser.Lottie (JSON): A technology that exports vector animations from Adobe After Effects into tiny code files, allowing intricate illustrations to scale perfectly without slowing down the page.Are you interested in developing an animated website yourself, or are you looking for creative inspiration for a project design?Tubik StudioMotion in UX Design: 6 Effective Types of Web AnimationWithout motion, even the most polished interface feels lifeless. Here are six types of web animation to improve usability, guide a...SVGatorWhat is kinetic typography? A guide to text in motionJun 22, 2026 — Kinetic typography, also called motion or moving text, is type that changes over time in position, scale, opacity, or shape, as op...IncredimateIs Animation a Genre? Exploring Anime, Music, and Literature Genres from Josei to Animal Farm - IncredimateNov 5, 2025 — Genre as a Design Language – The Animator's View When studios plan a project, they don't start with “make it anime-style.” They st...Show allboth ,start with  creative inspirationThis guide explores creative inspiration for animated websites, showcasing award-winning examples, curated galleries, and interactive design concepts.🏆 Top Agencies To StudyTo understand what high-end web animation looks like, look at the portfolio sites of specialized digital design agencies. They treat their sites like interactive playgrounds:Lusion: The gold standard for real-time 3D, particle physics, and WebGL shader effects. The homepage reacts seamlessly to your cursor.Active Theory: Famous for creating massive, highly optimized 3D environments that load quickly even on mobile devices.Obys Agency: A masterclass in bold, editorial typography animation. Text stretches and warps smoothly as you scroll.Unseen Studio: Focuses on premium, liquid-smooth text and layout transitions with perfect artistic restraint.🔍 Where to Find Daily InspirationBookmark these live, community-driven showcases to track cutting-edge trends and layout styles:Awwwards (Animation Category): Evaluates websites daily based on their design, creativity, and interaction animation standards.Landing.love: A dedicated gallery that catalogs clean web animations, categorized by styles like 3D, dark mode, and illustrations.CSS Design Awards: Grants daily awards to sites featuring unique CSS layout dynamics and visual tricks.💡 Creative Interactive ConceptsIf you are brainstorming layout ideas, here are three popular visual frameworks used by modern studios:Narrative ScrollytellingInstead of static text, the user scrolls to advance a linear storyline. As they navigate downward, illustrated vector characters walk across the screen, objects assemble themselves, and the background shifts dynamic color palettes to match the mood.Abstract WebGL ShadersThe background is treated as an interactive liquid canvas. Hovering your mouse cursor across the page creates ripples, color distortions, or trailing star fields that make the layout feel reactive and tactile.Dynamic Product ExplosionsCommonly used on premium e-commerce landing pages. Scrolling down physically disassembles a 3D model of a product (like a watch or headphone set) in mid-air, scattering its inner gears across the screen to highlight specific engineering features.Now that you have seen what is creatively possible, should we move on to the development part? Tell me if you want to start with no-code animation tools (like Webflow/Framer) or coding it manually (HTML/CSS/JS).AwwwardsBest Animation Websites | Web Design Inspiration* Animation. * 360. * 3D. * 404 pages. * About Page. * App Style. * Big Background Images. * Colorful. * Contact Page. * Content a...SVGator31 Cool Website Animations Examples And Effects ... - SVGatorFeb 24, 2026 — 31 Cool Website Animations Examples And Effects for Inspiration. Check our list of 31 website animation examples and effects. Get ...Landing LoveShowcase of the best 2107 Animation Websites - landing.loveGet inspired by the best website examples with full-page video recordings. All 2107 3D Websites 555 SaaS 89 AI 49 Portfolio 548 Da...Show allcoding it manuallyTo build animated websites manually with code, you need a structured pipeline. You start with lightweight CSS for basic movement, step up to JavaScript engines for complex timelines, and use WebGL for heavy 3D rendering.🏎️ The Standard Tech Stack (Easiest to Most Powerful)[ LEVEL 1: CSS3 ] --------> [ LEVEL 2: JavaScript ] --------> [ LEVEL 3: WebGL ]
+Buttons, hovers,            Scroll triggers, timelines,       Complex 3D spaces,
+simple loaders.             complex vector graphics.          fluid shader particles.
+🟩 Level 1: Native CSS3 (The Foundation)Best for UI states, button glows, menu slide-outs, and simple, endless loops. It runs directly on the browser's main thread and requires zero external files.Key Properties: transition, transform, @keyframes, and animation.When to use: Hover states, microinteractions, and lightweight loading spinners.🟨 Level 2: GSAP & Framer Motion (The Production Engines)When animations rely on user scrolling, math formulas, or precise sequencing, native CSS breaks down. You need JavaScript engines to orchestrate the chaos.GSAP (GreenSock): The undisputed industry standard. It can animate thousands of objects simultaneously, handle scroll-driven timelines flawlessly, and fix browser compatibility bugs automatically.Framer Motion: The go-to tool if you are building your website using React or Next.js. It turns complex layout transitions into simple, declarative components.🟦 Level 3: Three.js & PixiJS (The High-End 3D Visuals)For immersive sites that look like video games or abstract digital art installations. They tap into the user’s computer graphics card (GPU) via WebGL.Three.js: Simplifies creating 3D cameras, lights, textures, and geometry right inside an HTML <canvas> tag.PixiJS: A blazing-fast 2D engine perfect for handling tens of thousands of moving particles or complex digital collage layouts.🛠️ Step-by-Step Implementation GuideStep 1: Write Clean, Semantic HTMLKeep your animation code separate from your content. Build a structured skeleton using standard tags.html<!-- Example of a hero banner layout ready for animation -->
+<header class="hero-section">
+  <h1 class="animate-text">Crafting Motion</h1>
+  <button class="animate-button">Explore Work</button>
+</header>
+Use code with caution.Step 2: Set Up Base CSS & Hardware AccelerationUse standard CSS transitions for immediate interactions. Always animate transform (scale, translate, rotate) and opacity. Never animate properties like width, height, top, or left because they force the browser to recalculate the entire page layout, causing lag.css/* Smooth, hardware-accelerated hover effect */
+.animate-button {
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), background-color 0.3s;
+  will-change: transform; /* Signals GPU optimization */
+}
+
+.animate-button:hover {
+  transform: scale(1.05);
+  background-color: #333;
+}
+Use code with caution.Step 3: Layer on JavaScript Timelines (GSAP Example)To orchestrate multi-step animations (e.g., fade text in, then slide the button up right after), use GSAP. Link the library via a CDN script tag or install it via npm, then write your sequence:javascript// Create a timeline that executes sequentially
+const tl = gsap.timeline({ defaults: { ease: "power3.out", duration: 1 } });
+
+tl.from(".animate-text", { 
+  opacity: 0, 
+  y: 50, 
+  stagger: 0.2 // If multiple titles exist, they pop up one by one
+})
+.from(".animate-button", { 
+  opacity: 0, 
+  scale: 0.8 
+}, "-=0.5"); // Starts 0.5 seconds before the text animation finishes
+Use code with caution.⚠️ Performance Rules You Cannot IgnoreThe 60 FPS Rule: Animations must run smoothly at 60 frames per second. If a script stalls the browser thread for more than 16 milliseconds, the user will experience visual stutter (jank).Respect User Settings: Some users suffer from motion sickness. Always wrap massive, sweeping animations in a CSS media query that honors their system preference to turn motion off:css@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+Use code with caution.Would you like to build a specific layout effect right now? I can write out a complete, copy-pasteable HTML/CSS/JS file for either a smooth scroll-revealed landing page or an interactive cursor-tracking grid.MediumBuilding a Frontend That Holds Up: Design, Clean Code, and Architecture in One Stack | by Mohamed Elkholy | MediumNov 21, 2025 — Animate only transform and opacity : These run efficiently on the GPU compositor and skip the browser's layout and paint phases. A...bothHere are two complete, copy-pasteable layout files. You can save each as an .html file (e.g., scroll.html and cursor.html) and open them directly in your browser to see them work.Code 1: Smooth Scroll-Revealed Landing PageThis file uses GSAP and its ScrollTrigger plugin to create an elegant landing page. Content fades and slides into view smoothly as you scroll down.html<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Reveal Studio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    body {
+      background-color: #0d0d0d;
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+    section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      position: relative;
+    }
+    .hero {
+      background: linear-gradient(180deg, #141414 0%, #0d0d0d 100%);
+    }
+    h1 {
+      font-size: 4.5rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: -2px;
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    p {
+      font-size: 1.2rem;
+      color: #888;
+      max-width: 600px;
+      text-align: center;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    .cta-btn {
+      padding: 1rem 2.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      opacity: 0;
+    }
+    .cta-btn:hover {
+      transform: scale(1.05);
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      width: 100%;
+      max-width: 1200px;
+      margin-top: 3rem;
+    }
+    .card {
+      background-color: #161616;
+      border: 1px solid #262626;
+      padding: 2.5rem;
+      border-radius: 16px;
+      opacity: 0;
+      transform: translateY(60px);
+    }
+    .card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #00ffcc;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, h1, p, .card, .cta-btn {
+        transform: none !important;
+        opacity: 1 !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 class="hero-title">Elevate Motion</h1>
+    <p class="hero-text">Experience smooth sequencing powered by web layouts that react effortlessly to user scrolling.</p>
+    <button class="cta-btn hero-btn">Explore Features</button>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <h1 class="section-title">Core Engine</h1>
+    <div class="grid-container">
+      <div class="card">
+        <h3>01 / Hardware Sped</h3>
+        <p>Animations rely entirely on transforms and opacity calculations to maintain high performance frames.</p>
+      </div>
+      <div class="card">
+        <h3>02 / Scroll Driven</h3>
+        <p>Elements march onto the layout tracking your viewport positions smoothly across view blocks.</p>
+      </div>
+      <div class="card">
+        <h3>03 / User First</h3>
+        <p>Built-in reduction rules completely disable motion loops if users choose lower movement options.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GSAP Production Core Libraries -->
+  <script src="https://cloudflare.com"></script>
+  <script src="https://cloudflare.com"></script>
+  
+  <script>
+    // Register the scroll plugin
+    gsap.registerPlugin(ScrollTrigger);
+
+    // 1. Initial Hero Loading Animation Timeline
+    const heroTl = gsap.timeline({ defaults: { ease: "power4.out", duration: 1.2 } });
+    
+    heroTl.to(".hero-title", { opacity: 1, y: 0 })
+          .to(".hero-text", { opacity: 1, y: 0 }, "-=0.8")
+          .to(".hero-btn", { opacity: 1, y: 0 }, "-=0.8");
+
+    // 2. Scroll Triggered Animation for Second Section
+    gsap.to(".section-title", {
+      opacity: 1,
+      y: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".features",
+        start: "top 75%", // Triggers when the top of section hits 75% viewport height
+      }
+    });
+
+    // Staggered reveal for cards inside the grid
+    gsap.to(".card", {
+      opacity: 1,
+      y: 0,
+      duration: 1,
+      stagger: 0.2, // 0.2 seconds delay between each card reveal
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".grid-container",
+        start: "top 80%",
+      }
+    });
+  </script>
+</body>
+</html>
+Use code with caution.Code 2: Interactive Cursor-Tracking GridThis file builds a fluid microinteraction. A custom neon cursor tracking point trails behind the mouse, and items inside a minimalist display grid tilt dynamically to track cursor movement.html<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magnetic Grid Studio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    body {
+      background-color: #080808;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    /* Custom trail pointer */
+    .custom-cursor {
+      width: 20px;
+      height: 20px;
+      background-color: #ff0055;
+      border-radius: 50%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      pointer-events: none; /* Allows clicking through the div element */
+      z-index: 9999;
+      mix-blend-mode: screen;
+      transform: translate(-50%, -50%);
+      will-change: transform;
+    }
+    .grid-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2.5rem;
+      width: 100%;
+      max-width: 800px;
+      padding: 2rem;
+    }
+    .interactive-item {
+      background-color: #111;
+      border: 1px solid #222;
+      height: 250px;
+      border-radius: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 2rem;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+      transition: border-color 0.3s ease;
+      will-change: transform;
+    }
+    .interactive-item:hover {
+      border-color: #ff0055;
+    }
+    .interactive-item h2 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      z-index: 2;
+    }
+    /* Interactive glowing mesh behind text */
+    .glow {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background: radial-gradient(circle, rgba(255,0,85,0.15) 0%, rgba(0,0,0,0) 70%);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 1;
+    }
+    @media (pointer: coarse) {
+      .custom-cursor { display: none; } /* Hide custom cursor on mobile touch devices */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="custom-cursor"></div>
+
+  <div class="grid-wrapper">
+    <div class="interactive-item">
+      <div class="glow"></div>
+      <h2>Fluid Dynamics</h2>
+    </div>
+    <div class="interactive-item">
+      <div class="glow"></div>
+      <h2>Kinetic Layout</h2>
+    </div>
+    <div class="interactive-item">
+      <div class="glow"></div>
+      <h2>Vector Physics</h2>
+    </div>
+    <div class="interactive-item">
+      <div class="glow"></div>
+      <h2>GPU Rendered</h2>
+    </div>
+  </div>
+
+  <!-- GSAP Library -->
+  <script src="https://cloudflare.com"></script>
+  
+  <script>
+    const cursor = document.querySelector('.custom-cursor');
+    const items = document.querySelectorAll('.interactive-item');
+
+    // 1. Smooth Cursor Trail tracking
+    window.addEventListener('mousemove', (e) => {
+      gsap.to(cursor, {
+        x: e.clientX,
+        y: e.clientY,
+        duration: 0.3, // Soft lag trailing effect
+        ease: "power2.out"
+      });
+    });
+
+    // 2. 3D Tilt Projection effect on hover blocks
+    items.forEach(item => {
+      item.addEventListener('mousemove', (e) => {
+        const rect = item.getBoundingClientRect();
+        
+        // Calculate mouse position relative to center of the specific card block
+        const x = e.clientX - rect.left - (rect.width / 2);
+        const y = e.clientY - rect.top - (rect.height / 2);
+        
+        // Convert distance to rotational degrees
+        const tiltX = (y / (rect.height / 2)) * -10; // Max 10 degrees tilt on X axis
+        const tiltY = (x / (rect.width / 2)) * 10;   // Max 10 degrees tilt on Y axis
+
+        gsap.to(item, {
+          rotateX: tiltX,
+          rotateY: tiltY,
+          transformPerspective: 600,
+          duration: 0.5,
+          ease: "power2.out"
+        });
+        
+        // Slightly slide internal glow to match tilt direction
+        gsap.to(item.querySelector('.glow'), {
+          x: x * 0.3,
+          y: y * 0.3,
+          duration: 0.5,
+          ease: "power2.out"
+        });
+      });
+
+      // Reset transformations instantly when mouse exits the box layout
+      item.addEventListener('mouseleave', () => {
+        gsap.to(item, {
+          rotateX: 0,
+          rotateY: 0,
+          duration: 0.8,
+          ease: "power3.out"
+        });
+        
+        gsap.to(item.querySelector('.glow'), {
+          x: 0,
+          y: 0,
+          duration: 0.8,
+          ease: "power3.out"
+        });
+      });
+    });
+  </script>
+</body>
+</html>
+Use code with caution.If you decide to deploy these, would you like help hosting them online for free or integrating responsive layouts so they work perfectly on mobile screens?integrating responsive layoutsTo make your animation code fully responsive, you must use fluid CSS layout systems alongside dynamic JavaScript matchMedia checks. This stops complex desktop movements from breaking your layout on a phone screen.🛠️ Step 1: Upgrading to a Responsive CSS GridInstead of setting fixed heights or static column counts, replace the CSS in your cursor.html grid configuration with a fluid repeat(auto-fit) approach. This forces columns to wrap onto new lines automatically when the browser window shrinks.css/* Replace the .grid-wrapper and .interactive-item inside cursor.html with this code */
+.grid-wrapper {
+  display: grid;
+  /* Auto-fits columns based on minimum and maximum content sizing thresholds */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem; /* Slightly tighter gaps for smaller phone viewports */
+  width: 100%;
+  max-width: 1000px;
+  padding: 1.5rem;
+}
+
+.interactive-item {
+  background-color: #111;
+  border: 1px solid #222;
+  /* Using clamp() lets the height adapt fluidly between 180px and 250px */
+  height: clamp(180px, 25vh, 250px);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  will-change: transform;
+}
+Use code with caution.⚙️ Step 2: Adaptive Animations via JavaScript (gsap.matchMedia)Running calculations like custom cursors and 3D tilting on mobile devices wastes battery and feels awkward with touch gestures. Use GSAP’s MatchMedia tool to run your heavy interactions only on screens wide enough to use a mouse pointer.Replace the JavaScript block at the bottom of your cursor.html file with this responsive version:javascriptconst cursor = document.querySelector('.custom-cursor');
+const items = document.querySelectorAll('.interactive-item');
+
+// Create a GSAP media query listener object
+let mm = gsap.matchMedia();
+
+// This logic only executes on desktop screens (minimum width of 769px)
+mm.add("(min-width: 769px)", () => {
+  
+  // Ensure the custom cursor is visible on desktop screens
+  gsap.set(cursor, { display: "block" });
+
+  // 1. Mouse Follower Engine
+  const moveCursor = (e) => {
+    gsap.to(cursor, {
+      x: e.clientX,
+      y: e.clientY,
+      duration: 0.3,
+      ease: "power2.out"
+    });
+  };
+  window.addEventListener('mousemove', moveCursor);
+
+  // 2. 3D Tilt Card Interaction
+  items.forEach(item => {
+    const onMouseMove = (e) => {
+      const rect = item.getBoundingClientRect();
+      const x = e.clientX - rect.left - (rect.width / 2);
+      const y = e.clientY - rect.top - (rect.height / 2);
+      const tiltX = (y / (rect.height / 2)) * -10;
+      const tiltY = (x / (rect.width / 2)) * 10;
+
+      gsap.to(item, {
+        rotateX: tiltX,
+        rotateY: tiltY,
+        transformPerspective: 600,
+        duration: 0.5,
+        ease: "power2.out"
+      });
+      
+      gsap.to(item.querySelector('.glow'), {
+        x: x * 0.3,
+        y: y * 0.3,
+        duration: 0.5,
+        ease: "power2.out"
+      });
+    };
+
+    const onMouseLeave = () => {
+      gsap.to(item, { rotateX: 0, rotateY: 0, duration: 0.8, ease: "power3.out" });
+      gsap.to(item.querySelector('.glow'), { x: 0, y: 0, duration: 0.8, ease: "power3.out" });
+    };
+
+    item.addEventListener('mousemove', onMouseMove);
+    item.addEventListener('mouseleave', onMouseLeave);
+  });
+
+  // Clean-up function: Executed automatically if window scales down below 769px
+  return () => {
+    window.removeEventListener('mousemove', moveCursor);
+    gsap.set(cursor, { display: "none" });
+    items.forEach(item => {
+      gsap.killTweensOf(item);
+      gsap.set(item, { clearProps: "all" });
+    });
+  };
+});
+
+// This alternative logic only executes on smaller mobile touch views
+mm.add("(max-width: 768px)", () => {
+  // Hide custom cursor elements entirely on touch hardware
+  gsap.set(cursor, { display: "none" });
+  
+  // Optional lightweight animation for mobile devices (e.g., tap fade feedback)
+  items.forEach(item => {
+    item.addEventListener('click', () => {
+      gsap.fromTo(item, { borderColor: "#ff0055" }, { borderColor: "#222", duration: 0.6 });
+    });
+  });
+});
+Use code with caution.📐 Mobile Performance Rule CheckDon't calculate scroll offsets on resize loops: Use ScrollTrigger.refresh() sparingly. It forces the layout to rebuild, which lags on mobile browsers when address bars slide away.Keep touch zones accessible: On mobile, ensure your elements maintain a touch target size of at least 44x44px so users do not trigger unintended hover timelines when scrolling past.Would you like help with testing your responsive build across different screen break points, or are you ready to learn how to host your files live on GitHub Pages?theteam.co.ukResponsive design – Developing a website for multiple screen sizesApr 22, 2013 — The key components that make up responsive design are fluid layouts, flexible media elements and using CSS Media queries to adapt ...Egghead.ioUse CSS Grid auto-fit For Responsive Column LayoutJun 7, 2020 — We'll complete our landing page styles by using CSS grid auto-fit in conjunction with the grid functions repeat and minmax . The r...Adobe Experience LeagueCreate Responsive Forms with Universal Editor | Adobe Experience Manager as a Cloud ServiceJun 5, 2026 — Layout Issues Ensure every interactive element is at least 44px by 44px. Add adequate spacing between buttons, links, and other co...Show allhost your files live on GitHub PagesHosting your code on GitHub Pages is completely free, takes under five minutes, and updates automatically every time you change your code.Here is the exact step-by-step process to launch your animated website live onto the internet.🛠️ Step 1: Prepare Your Code FilesBefore uploading, GitHub Pages needs to know exactly which file to display as the homepage.Rename your main file: Pick either your scroll file or cursor file and rename it exactly to index.html (all lowercase).Keep everything together: Put your index.html file into its own dedicated folder on your computer.📦 Step 2: Create a GitHub RepositoryIf you do not have an account yet, sign up at GitHub.com.Log in and click the green New button on your dashboard (or go to github.com).Name your repository (e.g., animated-portfolio).Set the visibility to Public (GitHub Pages requires projects to be public on free accounts).Leave all other settings blank and click Create repository.🚀 Step 3: Upload Your Code (No Tools Needed)You can upload your files directly through your web browser without using any coding terminal tools:On your brand-new repository page, look for the text that says: "hosting github setup... uploading an existing file." Click that link.Drag and drop your index.html file directly into the browser box.Scroll to the bottom of the page and click the green Commit changes button. Your file is now saved in the cloud.🌐 Step 4: Turn On GitHub PagesNow, tell GitHub to turn that file into a live website:Look at the top navigation bar of your repository and click on Settings (the gear icon).On the left-hand sidebar menu, scroll down to the "Code and automation" section and click Pages.Under the Build and deployment section, look for the "Source" dropdown menu and ensure it is set to Deploy from a branch.Under Branch, change the dropdown selector from None to main (or master). Leave the folder path set to / (root).Click the Save button.🎉 Step 5: View Your Live Animated SiteGitHub will take about 30 to 60 seconds to build your page.Refresh your Settings > Pages screen.At the top of the page, you will see a green block with your live link: https://github.ioClick the link to open and test your fully responsive, animated webpage in real-time.If you make any layout updates in the future, you can just click Add file > Upload files inside your GitHub repository to overwrite the old code, and your live link will update itself automatically.Would you like to know how to link a custom domain name (like .com) to this free link, or are you interested in adding standard meta tags so your site displays beautiful preview cards when shared on social media?Autonomous EconStep-by-Step Guide: Creating Interactive Websites with Quarto, GitHub, and PythonAug 25, 2024 — GitHub hosts your code and website for free via GitHub Pages. The service is free, and you even have the option to use a custom do...YouTubeDeploying your website using github PagesMar 27, 2024 — If you are using a github repository for your coding project, it takes less than 5 minutes to deploy your site using github pages!GitHubJust finished my first app for work! 🚀 Now... how do I actually "go live"? · supabase · Discussion #42152Why: Cloud hosts connect directly to GitHub. When you change your code and push it to GitHub, the host will see that change and up...Show alladding standard meta tagsMeta tags are snippets of code hidden in the <head> of your HTML document. They do not change how your animations look, but they are crucial for SEO (Search Engine Optimization) and for displaying rich preview cards when you share your GitHub Pages link on platforms like X, Discord, or LinkedIn.🛠️ The Complete Meta Tag BlockCopy and paste this standard block directly inside the <head> tags of your index.html file, right above your <style> block.html<!-- Place this inside your <head> section -->
+
+<!-- 1. Universal Browser Standards -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0d0d0d"> <!-- Changes browser mobile address bar color -->
+
+<!-- 2. Primary SEO Metadata -->
+<title>Interactive Motion Studio | Web Design</title>
+<meta name="title" content="Interactive Motion Studio | Web Design">
+<meta name="description" content="Explore fluid 3D graphics, responsive cursor tracking layouts, and hardware-accelerated web animations built with modern code structures.">
+<meta name="robots" content="index, follow">
+
+<!-- 3. Open Graph / Facebook Previews -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://github.io">
+<meta property="og:title" content="Interactive Motion Studio | Web Design">
+<meta property="og:description" content="Explore fluid 3D graphics, responsive cursor tracking layouts, and hardware-accelerated web animations built with modern code structures.">
+<meta property="og:image" content="https://github.iometa-preview.png">
+
+<!-- 4. X (Formerly Twitter) Previews -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://github.io">
+<meta property="twitter:title" content="Interactive Motion Studio | Web Design">
+<meta property="twitter:description" content="Explore fluid 3D graphics, responsive cursor tracking layouts, and hardware-accelerated web animations built with modern code structures.">
+<meta property="twitter:image" content="https://github.iometa-preview.png">
+Use code with caution.📐 How to Set Up Your Preview ImageFor the og:image and twitter:image tags to show a visual thumbnail card when your link is shared, follow these image rules:The Perfect Dimensions: Create an image that is exactly 1200 x 630 pixels (this aspect ratio works across all major social networks).The File Name: Name the file meta-preview.png and drop it into the exact same folder as your index.html on your computer.Upload to GitHub: Upload this image file to your GitHub repository alongside your index.html.Update the Links: Replace yourusername and animated-portfolio in the code block above with your actual GitHub username and repository name.🔍 How to Test Your Preview CardsBefore sharing your live link with others, you can check exactly how your website cards will look using these free verification systems:Metatags.io: Drag your URL into this sandbox web tool to see live mockups of your search result slots across Google, Facebook, and X simultaneously.LinkedIn Post Inspector: Forces LinkedIn's cache memory engine to instantly clear out old data layers and fetch your updated meta descriptions.Once you push these changes to GitHub, your site metadata updates instantly. If you are ready, I can help you add a Favicon (the little browser tab icon) or show you how to optimize your image assets so your page continues to load lightning-fast. Which one would you prefer?MailchimpHow to Add Meta Tags to Your Website HTMLMeta tags don't appear on the pages but instead exist within the website's source code, also known as the HTML code, located in th...Wix.comAdding SEO Title Tags and Meta Descriptions to Your Pages | Help Center | Wix.comMeta tags are snippets of text that describe your page's content. Meta tags are not visible on the page itself. They appear in the...yellowHEADSEO Meta Tags: Descriptions, Titles, HeadersJan 26, 2025 — TLDR Although you might not always notice them, meta tags are one of the most essential elements of your website's SEO efforts. Cr...Show allbothAdding a Favicon and optimizing your images will turn your project from a basic code file into a polished, professional, fast-loading web app.🛠️ Step 1: Add a Browser Favicon (Tab Icon)A favicon is the small icon that appears in the browser tab, bookmark bars, and history logs.1. Generate Your Icon FilesCreate or find a square image (like your logo or a simple vector icon).Go to a free generator like Favicon.io or RealFaviconGenerator.net.Upload your image. The tool will instantly output a zip package filled with optimized sizes (16x16, 32x32, apple-touch-icon, etc.) along with a favicon.ico file.2. Add the Favicon Code BlockExtract the files, drop them directly into your project folder alongside your index.html, and add this code inside your <head> block right under your meta tags:html<!-- Universal Favicon Setup -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest"> <!-- For Android bookmarking support -->
+Use code with caution.🏎️ Step 2: Image Optimization for Animation SitesHeavy image assets are the number one reason animated websites stutter or freeze. If a browser is busy downloading a massive 5MB JPEG background, it won't have enough processing power to run your smooth GSAP timelines.1. Switch to Next-Gen Formats (.webp or .avif)Never use massive .png or .jpg formats for background layouts. Convert them to .webp or .avif using free online tools like Squoosh.app or CloudConvert. This can reduce file sizes by up to 80% without losing visible visual clarity.2. Implement the HTML <picture> ElementInstead of serving a massive background image to a small mobile phone screen, let the browser choose the best sized image automatically.html<!-- Responsive, performance-optimized image element -->
+<picture>
+  <!-- If the screen is wide (Desktop), load the sharp AVIF image -->
+  <source media="(min-width: 1024px)" srcset="hero-desktop.avif" type="image/avif">
+  <!-- If the screen is mid-sized (Tablet), load a medium WebP image -->
+  <source media="(min-width: 768px)" srcset="hero-tablet.webp" type="image/webp">
+  <!-- Fallback standard mobile image with lazy loading turned on -->
+  <img src="hero-mobile.webp" 
+       alt="Abstract Fluid Animation Art background" 
+       loading="lazy" 
+       decoding="async" 
+       width="400" 
+       height="600">
+</picture>
+Use code with caution.3. Critical Performance Attributes to Remember:loading="lazy": Tells the browser to download the image only when the user scrolls near it. Do not use this on your very first hero image at the top of the page.decoding="async": Tells the browser to decode the image file on a separate processing thread so it does not block your ongoing timeline animations.width and height: Always specify explicit layout dimensions in your HTML. This prevents Cumulative Layout Shift (CLS), where elements jumping around suddenly ruin the user's scroll position.Once you push these files to your GitHub repository, your site will feature a sleek tab icon and load with perfect fluid efficiency.Are you interested in setting up Google Analytics to track how many people visit your live site, or do you want to add an animated loading screen to hide your images while they parse?animated loading screenAn animated loading screen (often called a preloader) is crucial for animated websites. It hides your page content and prevents layout shifts while your heavy images, fonts, and scripts are loading in the background, then elegantly reveals your layout once everything is ready.🛠️ Step 1: Add the Preloader HTMLPaste this structural block at the very top of your <body> tag, before any of your main section content.html<!-- Place immediately after the opening <body> tag -->
+<div id="preloader">
+  <div class="preloader-content">
+    <div class="spinner"></div>
+    <div class="loading-text">LOADING<span class="dots">...</span></div>
+  </div>
+</div>
+Use code with caution.🎨 Step 2: Style the Full-Screen Mask with CSSAdd these styles to your <style> block. This covers the entire screen, centers the loading animations, and ensures users cannot scroll the page while it loads.css/* Preloader container masking the whole screen */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #080808;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000; /* Keeps it above absolutely everything else */
+}
+
+.preloader-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Minimalist glowing spinner layout */
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(255, 0, 85, 0.1);
+  border-radius: 50%;
+  border-top-color: #ff0055;
+  animation: spin 1s cubic-bezier(0.42, 0, 0.58, 1) infinite;
+}
+
+.loading-text {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: #888;
+}
+
+/* Endless infinite spinning loop */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Disable scrolling on the main page while loading */
+body.loading {
+  overflow: hidden;
+}
+Use code with caution.⚙️ Step 3: Wire the Reveal Sequence with GSAPAdd this code to your <script> block. This listens for the browser's native window.load event—which only fires when all HTML, styles, fonts, and images are completely downloaded—and seamlessly slides the preloader away.javascript// Add 'loading' class to body instantly to lock scroll positions
+document.body.classList.add('loading');
+
+window.addEventListener('load', () => {
+  // Create a clean reveal timeline
+  const revealTl = gsap.timeline({
+    onComplete: () => {
+      // Remove scroll-lock styling once animation ends
+      document.body.classList.remove('loading');
+      // Completely erase element from accessibility tree
+      document.getElementById('preloader').style.display = 'none';
+    }
+  });
+
+  // 1. First fade out the internal text and spinner elements
+  revealTl.to(".preloader-content", {
+    opacity: 0,
+    y: -20,
+    duration: 0.5,
+    ease: "power2.in"
+  })
+  // 2. Slide the entire main screen curtain up out of view
+  .to("#preloader", {
+    yPercent: -100, 
+    duration: 0.8,
+    ease: "power4.inOut"
+  }, "-=0.2")
+  // 3. Chain your original hero text entry animations right here
+  .from(".hero-title", {
+    opacity: 0,
+    y: 40,
+    duration: 1,
+    ease: "power3.out"
+  }, "-=0.3"); // Starts slightly before the panel completely finishes sliding up
+});
+Use code with caution.🏎️ Production Best PracticesDon't hardcode artificial wait clocks: Avoid using arbitrary timers like setTimeout(..., 3000). Rely entirely on the browser's native load listener so fast networks load instantly, while slower networks remain safely hidden until completely finished.Keep preloader assets completely local: Avoid using heavy external web fonts or un-optimized images inside the preloader itself. Use standard system typography or raw inline CSS vector graphics so the loader runs instantly without causing its own load block.With your responsive layouts, GitHub hosting, optimized assets, meta tags, and full-screen preloader completed, your application is structurally fully production-ready.Would you like to learn how to bundle and minify your JavaScript code files to get a perfect speed performance score on Google Lighthouse, or do you want to explore adding sound design effects (audio feedback) on user hover triggers?Mockplus15 Latest and Best Loading Animations to Make User Enjoy WaitingApr 1, 2018 — Loading animation, as an important element to make a web/app beautiful, interesting and outstanding, also plays an essential role ...Amelia WordPress Booking PluginLoading Animation: Examples & Snippets to UseFeb 28, 2023 — Modern websites use preloaders and progress bars to transform frustrating wait times into engaging moments. These animated loaders...DesignmodoCollection of Free Preloaders and Loading Animated SpinnersJun 16, 2026 — Why Is It ( Loading Animation ) Important to Add Preloader to Your Website? It is vital to add a preloader to the website simply b...Show allbothCombining production minification with interactive sound design gives your website the speed of a professional web application and the tactile feedback of a premium video game.🏎️ Step 1: Minifying Your Assets for SpeedMinification removes all white spaces, comments, and long variable names from your code. This creates tiny, fast-loading files that help your site get a perfect score on Google Lighthouse.1. The Direct Browser Method (No Coding Tools Needed)If you don't want to install complex command-line software, use free visual online minifiers:For HTML: Paste your final combined page code into HTMLMinifier.For CSS/JS: If you split your styles or logic into separate files, clean them up using CSSMinifier or Terser.2. The Professional Workspace Method (Using VS Code)If you use Visual Studio Code, you can automate this every time you hit save:Open the Extensions tab (Ctrl+Shift+X or Cmd+Shift+X).Search for and install "Minify" by HookyQR.Right-click your JavaScript or CSS file and select Minify. It will instantly generate a compact .min.js or .min.css production file automatically.🔊 Step 2: Adding Interactive Sound DesignSubtle audio feedback makes interactive sites feel incredibly responsive. To keep performance fast and prevent audio lag, use short, compressed audio clicks or wooshes under 0.2 seconds.1. Prepare Your Sound AssetsFind short UI sound effects (like a camera shutter click or a soft digital pop).Convert your audio files into the compressed .mp3 format using CloudConvert.Name the file hover-click.mp3 and upload it to your GitHub project folder.2. Add the Reactive Audio LogicAdd this script directly into your JavaScript block. This initializes the audio engine and triggers a fast sound effect every time a user hovers over an interactive item or button.javascript// 1. Preload the tiny user interface audio asset
+const hoverSound = new Audio('hover-click.mp3');
+hoverSound.preload = 'auto'; // Forces browser to load audio into memory instantly
+hoverSound.volume = 0.15;    // Keep UI interface sounds quiet and subtle
+
+// 2. Select all target elements you want to make sound
+const audioButtons = document.querySelectorAll('.interactive-item, .cta-btn');
+
+audioButtons.forEach(button => {
+  button.addEventListener('mouseenter', () => {
+    // Reset the audio clip playback position back to zero
+    hoverSound.currentTime = 0;
+    
+    // Play the clip instantly on hardware threads
+    hoverSound.play().catch(error => {
+      // Catches and ignores errors if the browser blocks audio autoplay regulations
+      console.log('Audio playback paused until first user layout click interaction.');
+    });
+  });
+});
+Use code with caution.⚠️ Important Audio & Speed RulesThe Web Audio Autoplay Policy: Modern web browsers block websites from making any sound automatically until the user clicks or taps at least once anywhere on the screen. The .catch() logic included above ensures your website animations keep running smoothly without breaking if the browser blocks the sound.Keep Minified Files Clean: Always keep your un-minified code backed up as your workspace file (e.g., main.js). Only upload your minified files (e.g., main.min.js) to GitHub Pages to ensure your code remains easy to edit later.Your interactive website is now fully optimized, compressed, tracked, and responsive.If you are ready to expand your project, what would you like to build next? I can help you with building an animated contact form submission or adding smooth inertia scrolling (Lenis Scroll) so the whole screen glides gracefully.bothCombining smooth inertia scrolling (Lenis) with animated form submissions turns your website into a highly polished, interactive experience. Lenis replaces the browser's native, rigid scroll behavior with a luxurious, fluid glide, while the animated form makes user inputs feel tactile and dynamic.🏎️ Step 1: Smooth Inertia Scrolling (Lenis)Lenis is an open-source, ultra-lightweight smooth-scrolling library. It feels completely natural, maintains your browser's native performance, and works perfectly with GSAP ScrollTrigger.1. Add the Lenis CDNAdd this script tag inside your HTML <head> or at the very bottom of your <body> right alongside your GSAP scripts:html<script src="https://unpkg.com"></script>
+Use code with caution.2. Initialize the Fluid Scroll LoopAdd this code at the very top of your main JavaScript block. It establishes the scroll loop and forces GSAP to sync up with Lenis's smooth positioning frames:javascript// Initialize Lenis
+const lenis = new Lenis({
+  duration: 1.2,          // How long the glide takes in seconds
+  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // Smooth exponential ease
+  orientation: 'vertical',
+  gestureOrientation: 'vertical',
+  smoothWheel: true
+});
+
+// Create an endless frame request loop to update Lenis scrolling
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+requestAnimationFrame(raf);
+
+// Crucial: Synchronize Lenis with GSAP ScrollTrigger
+lenis.on('scroll', ScrollTrigger.update);
+
+gsap.ticker.add((time)=>{
+  lenis.raf(time * 1000);
+});
+gsap.ticker.lagSmoothing(0);
+Use code with caution.✉️ Step 2: Animated Contact Form SubmissionThis contact form uses fluid floating labels that slide up when fields are focused, and shifts into a smooth loading checkmark animation when submitted.1. The Responsive HTML Form StructurePlace this section at the bottom of your index.html:html<section class="contact-section">
+  <form id="contactForm" class="contact-form">
+    <h2>Let's Work Together</h2>
+    
+    <!-- Floating Label Wrapper 1 -->
+    <div class="input-group">
+      <input type="text" id="name" required placeholder=" ">
+      <label for="name">Your Name</label>
+    </div>
+
+    <!-- Floating Label Wrapper 2 -->
+    <div class="input-group">
+      <input type="email" id="email" required placeholder=" ">
+      <label for="email">Your Email</label>
+    </div>
+
+    <!-- Submit Trigger -->
+    <button type="submit" class="submit-btn">
+      <span class="btn-text">Send Message</span>
+      <div class="btn-loader"></div>
+    </button>
+  </form>
+</section>
+Use code with caution.2. The CSS Floating Labels & Submission StatesAdd these styles to your main CSS file. It uses pure CSS tricks like :placeholder-shown to manage floating label mechanics effortlessly.css.contact-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 450px;
+  padding: 3rem;
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 24px;
+}
+
+.contact-form h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 1rem 0;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #333;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-group label {
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  color: #666;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Magic: Move label up when input is focused or NOT empty */
+.input-group input:focus ~ label,
+.input-group input:not(:placeholder-shown) ~ label {
+  top: -12px;
+  font-size: 0.8rem;
+  color: #ff0055;
+}
+
+.input-group input:focus {
+  border-color: #ff0055;
+}
+
+/* Submit Button & Interactive Loading Layouts */
+.submit-btn {
+  width: 100%;
+  padding: 1rem;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.submit-btn:active { transform: scale(0.98); }
+
+.btn-loader {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;
+  border-top-color: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: btn-spin 0.6s linear infinite;
+}
+
+@keyframes btn-spin { to { transform: translate(-50%, -50%) rotate(360deg); } }
+Use code with caution.3. The GSAP Submission Sequencing LogicAdd this event handler into your JavaScript script block to intercept form submissions and orchestrate the visual loading transformation.javascriptdocument.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault(); // Stop standard page reloading routines
+  
+  const btn = document.querySelector('.submit-btn');
+  const btnText = document.querySelector('.btn-text');
+  const btnLoader = document.querySelector('.btn-loader');
+
+  // Create timeline for the submission loading feedback loop
+  const submitTl = gsap.timeline();
+
+  submitTl.to(btnText, { opacity: 0, y: -10, duration: 0.2 })
+          .call(() => {
+            btnLoader.style.display = "block"; // Turn on loading spinner display
+            gsap.fromTo(btnLoader, { opacity: 0 }, { opacity: 1, duration: 0.2 });
+          })
+          // Simulate an API network request time delay of 2 seconds
+          .to(btn, { duration: 2 }) 
+          .to(btnLoader, { opacity: 0, duration: 0.2, onComplete: () => { btnLoader.style.display = "none"; } })
+          .call(() => {
+            btnText.innerHTML = "Success ✓";
+            btn.style.backgroundColor = "#00ffcc"; // Change theme to neon success green
+          })
+          .to(btnText, { opacity: 1, y: 0, duration: 0.3 })
+          // Automatically clear input fields back to empty configurations
+          .call(() => {
+            document.getElementById('contactForm').reset();
+          });
+});
+Use code with caution.⚠️ Performance Rules RememberLenis conflict on Fixed positions: Smooth scrolling overrides default window tracking mechanics. Always ensure elements like custom mouse pointers or full-screen preloaders utilize standard position: fixed declarations so they stay locked to the glass display frame instead of tracking the moving canvas wrapper.Your interactive site now features custom fluid scrolling layout paths, and microinteraction mechanisms tracking all user submissions.Now that the front-end layout pipeline is fully engineered, would you like to connect your contact form to a free real-world email dashboard backend (like Formspree) so you can actually read user text messages, or would you like to build out custom menu navigation page transitions?provide me with all urls/sources/links of past used, all of them in order in list likeHere is the chronological list of all the educational resources, documentation sites, performance sandboxes, and asset optimization tools recommended throughout our development pipeline:GSAP (GreenSock): The industry-standard JavaScript animation engine used to build complex, high-performance scroll timelines and layouts.Three.js: The core WebGL framework used to render advanced 3D environments, lights, and interactive objects directly inside the browser canvas.Lusion: A top-tier immersive design studio portfolio used for visual inspiration on high-end real-time 3D particle physics.Active Theory: A creative digital production agency website showcasing ultra-optimized 3D deployments for desktop and mobile devices.Obys Agency: An award-winning creative studio portfolio showcasing high-end typography warping and smooth layout mechanics.Unseen Studio: A premium web design showcase demonstrating liquid-smooth canvas scenes and elegant minimalist styling.Awwwards (Animation Category): A community showcase site used to discover daily inspiration and critique cutting-edge interactive websites.Landing.love: A dedicated gallery showcasing clean, modern website animations sorted by categories like 3D and illustrations.CSS Design Awards: A global platform that ranks daily web submissions for exceptional layout animations and creative UX/UI execution.GitHub: The code-hosting platform used to manage development files, create repositories, and deploy sites for free.Metatags.io: A visualization sandbox tool used to preview how search results and card layouts display across Google, Facebook, and X.LinkedIn Post Inspector: An diagnostic tool used to clear LinkedIn's platform cache and force re-fetching of your updated HTML metadata tags.Favicon.io: A free icon generation platform used to create full multi-size browser tab icon files and system manifests from images or text.RealFaviconGenerator.net: An advanced favicon generator used to customize exact icon crops for Apple touch pads and Android bookmarks.Squoosh.app: An image optimization web tool created by Google to compress, scale, and convert images into lightweight Next-Gen web formats like .webp or .avif.CloudConvert: A flexible cloud conversion tool used to convert heavy file assets into lightweight browser structures like .mp3 audio files.HTMLMinifier: An asset execution engine that strips extra code blocks, blank rows, and white space out of deployment HTML files.CSSMinifier: A production engine used to collapse structural cascading stylesheets down into raw, space-less inline string sequences.Terser: A professional JavaScript mangler and compressor used to minify logic trees and variable strings for faster data loading.Lenis Scroll (Studio Freight): The lightweight inertia scrolling CDN source script used to smooth out the frame rate of mouse-wheel actions.Would you like to explore how to set up Formspree to make your contact form live, or should we design the custom menu page transitions next?re provide in the past urls/link/resources in the following format :
+["https:url_name_1.com", "https:url_name_2.com", .... ]json[
+  "https://gsap.com",
+  "https://threejs.org",
+  "https://lusion.co",
+  "https://activetheory.net",
+  "https://obys.agency",
+  "https://unseen.co",
+  "https://awwwards.com",
+  "https://landing.love",
+  "https://cssdesignawards.com",
+  "https://github.com",
+  "https://metatags.io",
+  "https://linkedin.com",
+  "https://favicon.io",
+  "https://realfavicongenerator.net",
+  "https://squoosh.app",
+  "https://cloudconvert.com",
+  "https://htmlminifier.com",
+  "https://cssminifier.com",
+  "https://terser.org",
+  "https://unpkg.com"
+]
+get me all free/opensource  examples in animated website section that can used for inspiration/step stone /core /templateFree, open-source resources, code repositories, and cloneable bases can act as ideal stepping stones for your animated website. They are broken down below by category, complete with their underlying technologies.📦 1. UI Component Ecosystems (Copy-Paste Core)These platforms provide highly creative, open-source web snippets (buttons, cards, text reveals, grid loops) that you can drop straight into a plain HTML, React, or Next.js layout.Codrops (Tympanus): The ultimate playground for creative web code. They release fully functional, open-source GitHub repositories showcasing bleeding-edge animations like SVG-masked sliders, infinite scroll grids, and experimental canvas interactions.FreeFrontend (GSAP Section): A massive collection of over 340+ isolated GSAP animation codebases. Excellent for finding specific microinteractions (e.g., elastic button hops, dragging features, or inverted cursor masks) with live sandbox previews.Aceternity UI: An open-source layout ecosystem built specifically for modern Next.js and Tailwind setups. It provides clean copy-paste templates for complex desktop elements like magnetic cards, canvas grids, and text path morphs.💻 2. Production Codebases & Templates (GitHub Repos)These ready-to-run GitHub repositories provide structured boilerplates that handle the complicated logic of synchronizing frameworks, setting up 3D loaders, and organizing responsive timelines.Awwwards Portfolio by Elijah Farrell: A complete, fully animated developer portfolio template built using React (Vite), Tailwind, GSAP, Framer Motion, and Three.js. It features an interactive 3D hero section, scroll-velocity marquees, and responsive slide-in menus.Aniq-UI 3D Product Template: A free, lightweight 3D landing page designed for product marketing using Next.js and Three.js. It provides an excellent template configuration for real-time 3D model rotation synced to mobile touch boundaries.Personal 3D Portfolio by Naboraj Sarkar: An open-source, SEO-friendly personal website starter. Built with TypeScript, React, and Framer Motion, it acts as a streamlined foundation for running high-speed canvas elements without tanking page load performance.🎨 3. No-Code & Visual Layout Bases (Webflow Cloneables)If you prefer a visual starting framework before converting it into code, the design community shares fully responsive layouts that can be exported or reverse-engineered for free.Made In Webflow (Awwwards Space): A massive curated catalog of thousands of creative websites featuring complex cursor actions and scroll physics. Checking the cloneable=true filter allows you to inspect the layout structures layer by layer.Figma Community Canvas Kits: Search for key terms like "GSAP Landing Page" or "ThreeJS UI Layouts". Designers frequently share open-source wireframes complete with layer hierarchies and animation keyframe notes, which serve as perfect blueprints for manual layout coding.🛠️ How to Best Use These Stepping StonesIsolate the Logic First: When exploring a repository like the Awwwards Portfolio, download the repository and locate the core animation files (e.g., inside an animations/ folder or wrapped within custom React hooks like useGSAP).Strip out Custom Assets: Replace heavy custom 3D models and multi-megabyte image blocks with your own optimized .webp textures or placeholder boxes to verify that performance remains high.Check MatchMedia Structures: Make sure any open-source code snippet you find includes responsive rules (like the mobile fallback configurations we built previously) so heavy desktop particle systems do not crash small mobile devices.Would you like to analyze a specific codebase pattern from these examples (like how the 3D canvas is configured inside a Next.js framework), or should we write a custom grid-reveal template file based on these frameworks?GitHubanimated-website · GitHub TopicsDec 20, 2025 — A modern, fluid 3D personal portfolio template 🚀✨ — copy, customize, and launch your own stunning website in minutes. personal-we...YouTube·Manu Arora10 Websites for Insane UI Animations | Manu AroraMay 18, 2026 — what's going what's trending and in this video i'm going to talk about my 10 picks on how you can refer to animations. how you can...14:39SVGator31 Cool Website Animations Examples And Effects ... - SVGatorFeb 24, 2026 — Check our list of 31 website animation examples and effects. Get inspired and start using web animations!Show allprovide me with the  urls/link/resources in the following format :
+["https:url_name_1.com", "https:url_name_2.com", .... ]json[
+  "https://tympanus.net",
+  "https://freefrontend.com",
+  "https://aceternity.com",
+  "https://github.com",
+  "https://aniq-ui.com",
+  "https://github.com",
+  "https://webflow.com",
+  "https://figma.com"
+]
+Use code with caution.Would you like to analyze a specific codebase pattern from these examples (like how the 3D canvas is configured inside a Next.js framework), or should we write a custom grid-reveal template file based on these frameworks?bothBelow is a comprehensive guide breaking down both the engineering behind a React/Next.js 3D canvas pipeline and a complete, production-ready, copy-pasteable HTML/CSS/JS Grid Reveal template.Part 1: How a 3D Canvas is Configured in Next.js (The Pattern)To render 3D elements in a Next.js application without breaking server-side rendering (SSR) or dropping frame rates, developers rely on React Three Fiber (R3F)—a React wrapper for Three.js—combined with dynamic imports.1. The Core Architecture PatternA performant 3D Next.js setup divides the responsibilities into two distinct files to isolate the browser-only canvas rendering from the server-side layout framework.📁 components/
+├── 📄 Scene.js       <-- Raw 3D Objects & Material Loops (Client Component)
+└── 📄 Portfolio.js   <-- Dynamic Loader wrapping the Scene (Disables SSR)
+2. File 1: The Client Scene (Scene.js)This component defines the actual lights, cameras, and geometries. It runs exclusively on the client because it needs direct access to the browser's hardware graphics card (GPU) via WebGL.javascript'use client';
+import { useRef } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
+import { OrbitControls } from '@react-three/drei';
+
+// An isolated component to execute continuous frame-rate render updates
+function AnimatedMesh() {
+  const meshRef = useRef();
+
+  // useFrame runs on every single browser frame loop (typically 60-120fps)
+  useFrame((state, delta) => {
+    meshRef.current.rotation.x += delta * 0.5;
+    meshRef.current.rotation.y += delta * 0.2;
+  });
+
+  return (
+    <mesh ref={meshRef}>
+      <boxGeometry args={[2, 2, 2]} />
+      <meshStandardMaterial color="#ff0055" wireframe />
+    </mesh>
+  );
+}
+
+export default function Scene() {
+  return (
+    <div className="w-full h-screen bg-[#080808]">
+      <Canvas camera={{ position:, fov: 45 }}>
+        <ambientLight intensity={0.5} />
+        <directionalLight position={[10, 10, 5]} intensity={1} />
+        <AnimatedMesh />
+        <OrbitControls enableZoom={false} />
+      </Canvas>
+    </div>
+  );
+}
+Use code with caution.3. File 2: The Core Integration Page (Portfolio.js)If Next.js tries to pre-render the WebGL code on the server where window frames do not exist, it will throw a compilation crash. To fix this, use Next.js's dynamic optimization engine (next/dynamic) to delay loading the scene until the client browser is fully mounted.javascriptimport dynamic from 'next/dynamic';
+
+// Magic hook: Instructs Next.js to skip pre-rendering this file on the server
+const SceneNoSSR = dynamic(() => import('./Scene'), {
+  ssr: false,
+  loading: () => (
+    <div className="w-full h-screen flex items-center justify-center bg-[#080808] text-white">
+      Loading 3D Engine Elements...
+    </div>
+  ),
+});
+
+export default function Portfolio() {
+  return (
+    <main className="relative min-h-screen">
+      {/* Background 3D Viewport Layer */}
+      <div className="fixed inset-0 z-0">
+        <SceneNoSSR />
+      </div>
+
+      {/* Foreground Semantic Content Layer */}
+      <section className="relative z-10 min-h-screen flex items-center p-8">
+        <h1 className="text-6xl font-bold text-white max-w-xl">
+          Immersive Digital Frameworks
+        </h1>
+      </section>
+    </main>
+  );
+}
+Use code with caution.Part 2: Complete Copy-Pasteable Grid-Reveal Template FileSave this complete code block as grid-reveal.html and open it directly in your browser. It uses GSAP and ScrollTrigger to build a fluid layout grid that smoothly slides, cascades, and shifts its blocks into view based entirely on your scroll position.html<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Production Grid Reveal Template</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    body {
+      background-color: #0a0a0a;
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+    
+    /* Smooth Scroll Wrapper configuration */
+    #scroll-container {
+      width: 100%;
+    }
+
+    section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: clamp(2rem, 5vw, 6rem);
+    }
+
+    .hero-view {
+      background: radial-gradient(circle at center, #141414 0%, #0a0a0a 100%);
+      text-align: center;
+    }
+
+    .hero-view h1 {
+      font-size: clamp(3rem, 8vw, 6rem);
+      font-weight: 900;
+      letter-spacing: -3px;
+      text-transform: uppercase;
+      line-height: 0.9;
+      background: linear-gradient(180deg, #fff 0%, #444 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-view p {
+      margin-top: 1.5rem;
+      color: #666;
+      font-size: max(1rem, 1.5vw);
+    }
+
+    /* The Responsive Layout Grid Core */
+    .reveal-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      width: 100%;
+      max-width: 1300px;
+    }
+
+    .grid-item {
+      background-color: #111111;
+      border: 1px solid #1a1a1a;
+      border-radius: 20px;
+      padding: 3rem 2rem;
+      position: relative;
+      overflow: hidden;
+      /* Elements initially offset down and hidden before GSAP reveals them */
+      opacity: 0;
+      transform: translateY(100px);
+      transition: border-color 0.4s ease, background-color 0.4s ease;
+    }
+
+    .grid-item:hover {
+      border-color: #ff0055;
+      background-color: #141414;
+    }
+
+    .grid-item .badge {
+      display: inline-block;
+      padding: 0.4rem 1rem;
+      background-color: rgba(255, 0, 85, 0.1);
+      color: #ff0055;
+      font-size: 0.75rem;
+      font-weight: 700;
+      border-radius: 50px;
+      margin-bottom: 2rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .grid-item h3 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      letter-spacing: -0.5px;
+    }
+
+    .grid-item p {
+      color: #777;
+      line-height: 1.6;
+      font-size: 0.95rem;
+    }
+
+    /* Media query fallback to respect reduced motion user settings */
+    @media (prefers-reduced-motion: reduce) {
+      .grid-item {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="scroll-container">
+    <!-- Intro Block -->
+    <section class="hero-view">
+      <h1>Grid Cascade</h1>
+      <p>Scroll down to see the staggered interface grid elements slide into position.</p>
+    </section>
+
+    <!-- Interactive Grid Layout Block -->
+    <section class="grid-section">
+      <div class="reveal-grid">
+        
+        <div class="grid-item">
+          <span class="badge">Performance</span>
+          <h3>01 / Hardware Core</h3>
+          <p>This box calculation shifts positions utilizing only CSS transform channels to secure perfect 60fps speeds.</p>
+        </div>
+
+        <div class="grid-item">
+          <span class="badge">Architecture</span>
+          <h3>02 / Modular Tree</h3>
+          <p>Built with decoupled element hierarchies, making it incredibly simple to port straight into React or Vue views.</p>
+        </div>
+
+        <div class="grid-item">
+          <span class="badge">Responsive</span>
+          <h3>03 / Fluid Adaptation</h3>
+          <p>Using fluid auto-fitting properties, columns wrap into clean mobile vertical blocks automatically.</p>
+        </div>
+
+        <div class="grid-item">
+          <span class="badge">Animation</span>
+          <h3>04 / Staggered Loops</h3>
+          <p>GSAP coordinates individual delays between every sibling node automatically based on viewport passage.</p>
+        </div>
+
+        <div class="grid-item">
+          <span class="badge">Interaction</span>
+          <h3>05 / Hover Vectors</h3>
+          <p>Integrated hover bindings immediately react, scaling border lighting pipelines smoothly under mouse controls.</p>
+        </div>
+
+        <div class="grid-item">
+          <span class="badge">Design</span>
+          <h3>06 / Dark Mode Aesthetic</h3>
+          <p>A dark, premium layout matrix engineered to make high-contrast microinteractions stand out immediately.</p>
+        </div>
+
+      </div>
+    </section>
+    
+    <!-- Footer spacer section to allow for a comfortable scroll experience -->
+    <section class="hero-view" style="min-height: 50vh; border-top: 1px solid #111;">
+      <p style="color: #444;">End of Template Presentation Flow</p>
+    </section>
+  </div>
+
+  <!-- Production Dependencies: GSAP Core & ScrollTrigger -->
+  <script src="https://cloudflare.com"></script>
+  <script src="https://cloudflare.com"></script>
+
+  <script>
+    // Register the animation plugin
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Using a matchMedia block to ensure animations only run on screens with enough space
+    let mm = gsap.matchMedia();
+
+    mm.add("(min-width: 480px)", () => {
+      // Direct GSAP reveal tracking configuration
+      gsap.to(".grid-item", {
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        stagger: {
+          amount: 0.6, // Distributes 0.6 seconds of delay across all visible cards
+          grid: "auto", // Automatically detects rows and columns to order the cascade properly
+          from: "start"  // Starts the staggering wave from the first block
+        },
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: ".reveal-grid",
+          start: "top 80%", // Triggers the cascade when the top of the grid hits 80% screen height
+          toggleActions: "play none none none" // Plays once and remains in place
+        }
+      });
+    });
+
+    // Mobile fallback configuration: instantly display blocks cleanly without heavy scroll calculations
+    mm.add("(max-width: 479px)", () => {
+      gsap.set(".grid-item", { opacity: 1, y: 0 });
+    });
+  </script>
+</body>
+</html>

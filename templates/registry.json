@@ -1,0 +1,55 @@
+{
+  "$schema": "./AGENTS.md",
+  "version": "1.0.0",
+  "description": "Machine-readable registry for the agent-app-template family. Mirrors the deterministic selection rule in templates/AGENTS.md and the canonical pins in research/agent-app-templates-2026-08-13/02_STACK_MATRIX.md.",
+  "tiers": [
+    { "id": 0, "name": "tier0-minimal", "path": "./tier0-minimal", "buildOrder": 7, "role": "fallback" },
+    { "id": 1, "name": "tier1-standard", "path": "./tier1-standard", "buildOrder": 1, "role": "base" },
+    { "id": 2, "name": "cinematic-landing", "path": "./cinematic-landing", "buildOrder": 6, "role": "specialist" },
+    { "id": 2, "name": "tier2-ai-chat", "path": "./tier2-ai-chat", "buildOrder": 2, "role": "kind" },
+    { "id": 2, "name": "tier2-mobile", "path": "./tier2-mobile", "buildOrder": 3, "role": "kind" },
+    { "id": 2, "name": "tier2-storefront", "path": "./tier2-storefront", "buildOrder": 4, "role": "kind" },
+    { "id": 2, "name": "tier2-saas-bundle", "path": "./tier2-saas-bundle", "buildOrder": 5, "role": "kind" }
+  ],
+  "kinds": [
+    { "id": "kind-landing", "tier": "cinematic-landing", "selectionRule": [1, 6] },
+    { "id": "kind-ai-chat", "tier": "tier2-ai-chat", "selectionRule": [2, 13] },
+    { "id": "kind-mobile", "tier": "tier2-mobile", "selectionRule": [3] },
+    { "id": "kind-storefront", "tier": "tier2-storefront", "selectionRule": [4] },
+    { "id": "kind-saas", "tier": "tier2-saas-bundle", "selectionRule": [5] },
+    { "id": "kind-content", "tier": "tier1-standard", "selectionRule": [6], "layer": "content" },
+    { "id": "kind-admin", "tier": "tier1-standard", "selectionRule": [7], "layer": "admin" },
+    { "id": "kind-realtime", "tier": "tier1-standard", "selectionRule": [8], "layer": "realtime" },
+    { "id": "kind-api", "tier": "tier1-standard", "selectionRule": [9], "layer": "api" },
+    { "id": "kind-extension", "tier": "tier1-standard", "selectionRule": [10], "layer": "extension", "status": "kind-dropped-q1-d" },
+    { "id": "kind-bot", "tier": "tier1-standard", "selectionRule": [11], "layer": "bot", "status": "kind-dropped-q1-d" },
+    { "id": "kind-cli", "tier": "tier1-standard", "selectionRule": [12], "layer": "cli", "status": "kind-dropped-q1-d" },
+    { "id": "kind-fallback", "tier": "tier0-minimal", "selectionRule": ["FALLBACK"] }
+  ],
+  "routing": {
+    "rule": "first-match-wins; fallback tier0-minimal",
+    "source": "research/agent-app-templates-2026-08-13/02_STACK_MATRIX.md#selection-rule",
+    "steps": [
+      { "step": 1, "triggers": ["landing", "single page", "marketing", "about me", "product page"], "kind": "kind-landing" },
+      { "step": 2, "triggers": ["chat", "assistant", "gpt", "claude", "llm", "ai", "copilot", "agent"], "kind": "kind-ai-chat" },
+      { "step": 3, "triggers": ["mobile", "ios", "android", "app store", "play store", "react native", "expo", "capacitor"], "kind": "kind-mobile" },
+      { "step": 4, "triggers": ["store", "shop", "checkout", "cart", "product", "inventory", "order", "e-commerce", "sell"], "kind": "kind-storefront" },
+      { "step": 5, "triggers": ["auth", "sign in", "user accounts", "subscription", "billing", "saas", "mrr"], "kind": "kind-saas" },
+      { "step": 6, "triggers": ["docs", "documentation", "blog", "changelog", "marketing site", "content"], "kind": "kind-content" },
+      { "step": 7, "triggers": ["dashboard", "admin", "crud", "back-office", "internal tool", "manage "], "kind": "kind-admin" },
+      { "step": 8, "triggers": ["live", "real-time", "multiplayer", "collaborative", "co-edit"], "kind": "kind-realtime" },
+      { "step": 9, "triggers": ["api", "endpoint", "sdk", "developer tool", "graphql gateway"], "kind": "kind-api" },
+      { "step": 10, "triggers": ["extension", "chrome extension", "firefox extension", "browser plugin"], "kind": "kind-extension" },
+      { "step": 11, "triggers": ["bot", "discord bot", "slack bot", "chatbot"], "kind": "kind-bot" },
+      { "step": 12, "triggers": ["cli", "command-line", "terminal tool", "npm package (binary)"], "kind": "kind-cli" },
+      { "step": 13, "triggers": ["do x for me", "autonomous", "multi-step", "tool-using"], "kind": "kind-ai-chat", "note": "ToolLoopAgent from AI SDK 7, layer on tier2-ai-chat" },
+      { "step": "FALLBACK", "triggers": [], "kind": "kind-fallback" }
+    ]
+  },
+  "notes": [
+    "Step 5 (auth+billing) was promoted from tier1+layer to tier2-saas-bundle per Q8; tracked in 00_decisions_T-2026-08-14-001.md.",
+    "Steps 10/11/12 (extension/bot/cli) are DROPPED per Q1 D; keep them here as kind entries so the step numbers stay aligned with 02_STACK_MATRIX.md.",
+    "Build order is tier1 (3.1) -> ai-chat (3.2) -> mobile (3.3) -> storefront (3.4) -> saas-bundle (3.5) -> cinematic-landing (3.6) -> tier0-minimal (3.7) per Q2 B + Q8 modifier.",
+    "Path B for tier2-storefront is RE-GATED at the start of Phase 3.4 - master confirms with user before scaffolding."
+  ]
+}

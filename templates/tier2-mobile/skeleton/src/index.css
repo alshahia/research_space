@@ -1,0 +1,28 @@
+/* src/index.css — Tier 2 mobile skeleton
+ * Tailwind v4 CSS-first @theme block. No JS config.
+ */
+@import "tailwindcss";
+
+@theme {
+  --color-brand: oklch(0.6 0.2 250);
+  --color-brand-fg: oklch(0.98 0 0);
+  --color-user-bubble: oklch(0.95 0.02 250);
+  --color-user-bubble-fg: oklch(0.2 0 0);
+  --color-assistant-bubble: oklch(0.98 0 0);
+  --color-assistant-bubble-fg: oklch(0.2 0 0);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", "Consolas", "Menlo", monospace;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: white;
+  color: oklch(0.2 0 0);
+}

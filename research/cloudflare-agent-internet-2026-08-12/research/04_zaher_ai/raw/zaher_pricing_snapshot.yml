@@ -1,0 +1,769 @@
+- generic [active] [ref=f52e1]:
+  - link "Skip to main content" [ref=f52e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - navigation "Site navigation" [ref=f52e3]:
+    - link "Home" [ref=f52e4] [cursor=pointer]:
+      - /url: /
+    - link "العربية" [ref=f52e5] [cursor=pointer]:
+      - /url: /ar
+    - link "Pricing" [ref=f52e6] [cursor=pointer]:
+      - /url: /pricing
+    - link "Free Audit" [ref=f52e7] [cursor=pointer]:
+      - /url: /onboarding
+    - link "About Zaher.AI" [ref=f52e8] [cursor=pointer]:
+      - /url: /about
+    - link "Contact Zaher.AI" [ref=f52e9] [cursor=pointer]:
+      - /url: /contact
+    - link "Sign in to Zaher.AI Dashboard" [ref=f52e10] [cursor=pointer]:
+      - /url: /login
+    - link "Create a Zaher.AI Account" [ref=f52e11] [cursor=pointer]:
+      - /url: /signup
+    - link "Privacy Policy" [ref=f52e12] [cursor=pointer]:
+      - /url: /privacy
+    - link "Terms of Service" [ref=f52e13] [cursor=pointer]:
+      - /url: /terms
+    - link "Disclaimer" [ref=f52e14] [cursor=pointer]:
+      - /url: /disclaimer
+    - link "Refund Policy" [ref=f52e15] [cursor=pointer]:
+      - /url: /refund
+    - link "Contact Us" [ref=f52e16] [cursor=pointer]:
+      - /url: mailto:contact@zaher.ai
+  - main [ref=f52e17]:
+    - generic [ref=f52e18]:
+      - region "Notifications (F8)":
+        - list
+      - generic [ref=f52e19]:
+        - navigation [ref=f52e20]:
+          - link [ref=f52e21] [cursor=pointer]:
+            - /url: /
+            - img "Zaher.AI" [ref=f52e22]
+          - list [ref=f52e23]:
+            - listitem [ref=f52e24]:
+              - link "Modules" [ref=f52e25] [cursor=pointer]:
+                - /url: /#modules
+            - listitem [ref=f52e28]:
+              - link "Pricing" [ref=f52e29] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f52e30]:
+              - link "Resources" [ref=f52e31] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f52e34]:
+            - button "ع AR" [ref=f52e35] [cursor=pointer]
+            - button "Toggle theme" [ref=f52e36] [cursor=pointer]
+            - link "Sign in" [ref=f52e42] [cursor=pointer]:
+              - /url: /login
+            - button "Free Analysis" [ref=f52e43] [cursor=pointer]
+        - dialog "Modules menu":
+          - generic:
+            - generic:
+              - generic: AI Visibility Modules
+              - paragraph: The complete toolkit for measuring and optimizing your brand inside every major AI engine.
+              - link "Free Analysis →":
+                - /url: /signup
+            - generic:
+              - link "Overview Dashboard Real-time AI visibility scores across all engines. LIVE":
+                - /url: /modules/overview-dashboard
+                - generic:
+                  - generic: Overview Dashboard
+                  - generic: Real-time AI visibility scores across all engines.
+                  - generic: LIVE
+              - link "GEO Analysis 5 sub-modules measuring every dimension of AI brand perception. LIVE":
+                - /url: /modules/geo-analysis
+                - generic:
+                  - generic: GEO Analysis
+                  - generic: 5 sub-modules measuring every dimension of AI brand perception.
+                  - generic: LIVE
+              - link "Optimization Hub AI-generated fix roadmap, prioritized by impact and ROI. LIVE":
+                - /url: /modules/optimization-hub
+                - generic:
+                  - generic: Optimization Hub
+                  - generic: AI-generated fix roadmap, prioritized by impact and ROI.
+                  - generic: LIVE
+              - link "Content Writer Auto-generate GEO-optimized content that gets cited by AI. LIVE":
+                - /url: /modules/content-writer
+                - generic:
+                  - generic: Content Writer
+                  - generic: Auto-generate GEO-optimized content that gets cited by AI.
+                  - generic: LIVE
+              - link "SEO Engine Traditional SEO baseline supercharged with GEO intelligence. LIVE":
+                - /url: /modules/seo-engine
+                - generic:
+                  - generic: SEO Engine
+                  - generic: Traditional SEO baseline supercharged with GEO intelligence.
+                  - generic: LIVE
+              - link "Agentic Shopping Win the AI shopping shelf across ChatGPT, Perplexity & Google AI. Soon":
+                - /url: /modules/agentic-shopping
+                - generic:
+                  - generic: Agentic Shopping
+                  - generic: Win the AI shopping shelf across ChatGPT, Perplexity & Google AI.
+                  - generic: Soon
+              - link "Analytics Suite Connect AI visibility to revenue, share-of-voice & attribution. Soon":
+                - /url: /modules/analytics-suite
+                - generic:
+                  - generic: Analytics Suite
+                  - generic: Connect AI visibility to revenue, share-of-voice & attribution.
+                  - generic: Soon
+              - link "AI Optimization Agent Autonomous agent that detects and fixes visibility issues automatically. Soon":
+                - /url: /modules/ai-optimization-agent
+                - generic:
+                  - generic: AI Optimization Agent
+                  - generic: Autonomous agent that detects and fixes visibility issues automatically.
+                  - generic: Soon
+        - dialog "Resources menu":
+          - generic:
+            - generic:
+              - generic:
+                - generic: Latest Research
+                - generic: MENA AI Visibility Report 2025
+                - generic: How Arabic brands rank inside ChatGPT, Gemini & Perplexity — with benchmarks by industry.
+                - link "Download Free →":
+                  - /url: /research
+            - generic:
+              - generic:
+                - generic: Learn
+                - link "Blog GEO strategy & AI trends":
+                  - /url: /blog
+                  - generic:
+                    - generic: Blog
+                    - generic: GEO strategy & AI trends
+                - link "Research Reports NEW MENA AI visibility data":
+                  - /url: /research
+                  - generic:
+                    - generic:
+                      - text: Research Reports
+                      - generic: NEW
+                    - generic: MENA AI visibility data
+                - generic:
+                  - generic:
+                    - generic:
+                      - text: Zaher Academy
+                      - generic: Soon
+                    - generic: Free courses on AI visibility
+              - generic:
+                - generic: Company
+                - link "About Zaher Our mission & team":
+                  - /url: /about
+                  - generic:
+                    - generic: About Zaher
+                    - generic: Our mission & team
+                - link "Pricing Plans from $7/mo":
+                  - /url: /pricing
+                  - generic:
+                    - generic: Pricing
+                    - generic: Plans from $7/mo
+                - link "Partnerships Become a Zaher partner":
+                  - /url: /agencies
+                  - generic:
+                    - generic: Partnerships
+                    - generic: Become a Zaher partner
+              - generic:
+                - generic: Support
+                - link "Contact Us Enterprise & agency inquiries":
+                  - /url: /contact
+                  - generic:
+                    - generic: Contact Us
+                    - generic: Enterprise & agency inquiries
+                - link "Login Access your dashboard":
+                  - /url: /login
+                  - generic:
+                    - generic: Login
+                    - generic: Access your dashboard
+        - main [ref=f52e44]:
+          - generic [ref=f52e46]:
+            - generic [ref=f52e47]: Pricing
+            - heading "Visibility without guesswork. Priced to scale." [level=1] [ref=f52e48]: Visibility without guesswork.Priced to scale.
+            - paragraph [ref=f52e49]: Start measuring your brand's presence across AI engines today. No setup fees. No lock-in. Cancel anytime.
+            - generic [ref=f52e50]:
+              - button "$ USD" [ref=f52e51] [cursor=pointer]
+              - button "ر.س SAR" [ref=f52e52] [cursor=pointer]
+              - button "ج.م EGP" [ref=f52e53] [cursor=pointer]
+            - note [ref=f52e54]: USD/SAR prices are shown for reference. Charges are processed in EGP via our payment gateway and may vary slightly based on your bank's FX rate at checkout.
+          - generic [ref=f52e57]:
+            - generic [ref=f52e58]:
+              - generic [ref=f52e59]: Foundation
+              - generic [ref=f52e60]: Full Visibility
+              - generic [ref=f52e61]:
+                - generic [ref=f52e62]:
+                  - superscript: $
+                  - text: "19"
+                  - subscript [ref=f52e63]: .99/mo
+                - generic [ref=f52e64]:
+                  - superscript: $
+                  - text: "9"
+                  - subscript [ref=f52e65]: .99/mo
+              - generic [ref=f52e66]:
+                - text: Complete AI visibility data + ability to act on it.
+                - strong [ref=f52e67]: Then $19.99/mo.
+              - link "Get started" [ref=f52e70] [cursor=pointer]:
+                - /url: /signup
+              - generic [ref=f52e71]:
+                - generic [ref=f52e72]:
+                  - generic [ref=f52e73]: ✓
+                  - generic [ref=f52e74]: Monthly queries · 60
+                - generic [ref=f52e75]:
+                  - generic [ref=f52e76]: ✓
+                  - generic [ref=f52e77]: AI engines (LLMs) · 2
+                - generic [ref=f52e78]:
+                  - generic [ref=f52e79]: ✓
+                  - generic [ref=f52e80]: Markets / regions · 2
+                - generic [ref=f52e81]:
+                  - generic [ref=f52e82]: ✓
+                  - generic [ref=f52e83]: Overview Dashboard
+                - generic [ref=f52e84]:
+                  - generic [ref=f52e85]: ✓
+                  - generic [ref=f52e86]: GEO Analysis
+                - generic [ref=f52e87]:
+                  - generic [ref=f52e88]: ✓
+                  - generic [ref=f52e89]: SEO Analysis
+                - generic [ref=f52e90]:
+                  - generic [ref=f52e91]: ✓
+                  - generic [ref=f52e92]: Content Writer · 10 articles
+                - generic [ref=f52e93]:
+                  - generic [ref=f52e94]: ✓
+                  - generic [ref=f52e95]: Optimization Hub · Up to 10
+                - generic [ref=f52e96]:
+                  - generic [ref=f52e97]: —
+                  - generic [ref=f52e98]: Agentic Shopping
+            - generic [ref=f52e99]:
+              - generic [ref=f52e100]: Ecom Powerhouse
+              - generic [ref=f52e101]: Convert & Monetize
+              - generic [ref=f52e103]:
+                - superscript: $
+                - text: "79"
+                - subscript [ref=f52e104]: /mo
+              - generic [ref=f52e105]: The full ecom stack for brands serious about AI-driven growth — conversion optimization, agentic shopping, and visibility monetization.
+              - button "Join Waitlist" [ref=f52e108] [cursor=pointer]
+              - generic [ref=f52e109]:
+                - generic [ref=f52e110]:
+                  - generic [ref=f52e111]: ✓
+                  - generic [ref=f52e112]: Monthly queries · 250
+                - generic [ref=f52e113]:
+                  - generic [ref=f52e114]: ✓
+                  - generic [ref=f52e115]: AI engines (LLMs) · 5
+                - generic [ref=f52e116]:
+                  - generic [ref=f52e117]: ✓
+                  - generic [ref=f52e118]: Markets / regions · 5
+                - generic [ref=f52e119]:
+                  - generic [ref=f52e120]: ✓
+                  - generic [ref=f52e121]: Tracked competitors · 3
+                - generic [ref=f52e122]:
+                  - generic [ref=f52e123]: ✓
+                  - generic [ref=f52e124]: Overview Dashboard + GEO Analysis
+                - generic [ref=f52e125]:
+                  - generic [ref=f52e126]: ✓
+                  - generic [ref=f52e127]: SEO Analysis
+                - generic [ref=f52e128]:
+                  - generic [ref=f52e129]: ✓
+                  - generic [ref=f52e130]: Content Writer · 20 articles
+                - generic [ref=f52e131]:
+                  - generic [ref=f52e132]: ✓
+                  - generic [ref=f52e133]: Optimization Hub · Up to 20
+                - generic [ref=f52e134]:
+                  - generic [ref=f52e135]: ✓
+                  - generic [ref=f52e136]: Agentic Shopping
+                - generic [ref=f52e137]:
+                  - generic [ref=f52e138]: ✓
+                  - generic [ref=f52e139]: Exportable reports (PDF/CSV)
+                - generic [ref=f52e140]:
+                  - generic [ref=f52e141]: ✓
+                  - generic [ref=f52e142]: Analytics Suite · Soon
+            - generic [ref=f52e143]:
+              - generic [ref=f52e144]: Enterprise
+              - generic [ref=f52e145]: Full Execution
+              - generic [ref=f52e146]: Custom
+              - generic [ref=f52e148]: For large brands, agencies, and enterprise teams with advanced integration and compliance needs.
+              - link "Talk to us" [ref=f52e151] [cursor=pointer]:
+                - /url: /contact
+              - generic [ref=f52e152]:
+                - generic [ref=f52e153]:
+                  - generic [ref=f52e154]: ✓
+                  - generic [ref=f52e155]: Custom queries, LLMs & markets
+                - generic [ref=f52e156]:
+                  - generic [ref=f52e157]: ✓
+                  - generic [ref=f52e158]: Custom query libraries
+                - generic [ref=f52e159]:
+                  - generic [ref=f52e160]: ✓
+                  - generic [ref=f52e161]: Co-branded reporting
+                - generic [ref=f52e162]:
+                  - generic [ref=f52e163]: ✓
+                  - generic [ref=f52e164]: 10 team members
+                - generic [ref=f52e165]:
+                  - generic [ref=f52e166]: ✓
+                  - generic [ref=f52e167]: Dedicated account manager
+                - generic [ref=f52e168]:
+                  - generic [ref=f52e169]: ✓
+                  - generic [ref=f52e170]: Onboarding session
+                - generic [ref=f52e171]:
+                  - generic [ref=f52e172]: ✓
+                  - generic [ref=f52e173]: SLA guarantee
+          - generic [ref=f52e175]:
+            - generic [ref=f52e176]:
+              - generic [ref=f52e177]:
+                - generic [ref=f52e178]: Add-on Marketplace
+                - heading "Extend your plan with powerful add-ons" [level=2] [ref=f52e184]: Extend your planwith powerful add-ons
+                - paragraph [ref=f52e185]: Unlock specific modules for your plan without upgrading. Add exactly what you need — pay only for what you use.
+              - generic [ref=f52e186]: Add-ons activate instantly on your next billing cycle
+            - generic [ref=f52e190]:
+              - generic [ref=f52e191]:
+                - generic [ref=f52e192]: Available now
+                - generic [ref=f52e200]:
+                  - generic [ref=f52e201]: SEO Engine
+                  - generic [ref=f52e202]: Full SEO baseline audit — performance, on-page, and keyword analysis powered by GEO intelligence.
+                  - generic [ref=f52e204]:
+                    - generic [ref=f52e205]: $
+                    - text: 19.99/mo
+                  - generic [ref=f52e206]: Available for Foundation & Discovery. Included in Ecom Powerhouse & Enterprise.
+                - button "Show features" [ref=f52e208] [cursor=pointer]
+                - generic:
+                  - generic [ref=f52e212]: What's included
+                  - list [ref=f52e213]:
+                    - listitem [ref=f52e214]:
+                      - generic [ref=f52e218]:
+                        - strong [ref=f52e219]: SEO Health Score
+                        - text: — overall site audit with prioritized best-practice recommendations
+                    - listitem [ref=f52e220]:
+                      - generic [ref=f52e224]:
+                        - strong [ref=f52e225]: Performance Analysis
+                        - text: — page speed, crawl issues, and technical bottlenecks
+                    - listitem [ref=f52e226]:
+                      - generic [ref=f52e230]:
+                        - strong [ref=f52e231]: On-Page SEO Audit
+                        - text: — meta titles, image tags, page structure, and social tags reviewed per URL
+                    - listitem [ref=f52e232]:
+                      - generic [ref=f52e236]:
+                        - strong [ref=f52e237]: Keyword Analysis
+                        - text: — current ranking keywords vs. AI-recommended targets for your niche
+                    - listitem [ref=f52e238]:
+                      - generic [ref=f52e242]:
+                        - strong [ref=f52e243]: 10 Page Audits/mo
+                        - text: — full AI-readiness audit per URL with a prioritized fix list
+                    - listitem [ref=f52e244]:
+                      - generic [ref=f52e248]:
+                        - strong [ref=f52e249]: Schema & Structured Data
+                        - text: — recommendations tuned for AI crawler indexing
+                - button "Add SEO Engine to my plan" [ref=f52e250] [cursor=pointer]
+              - generic [ref=f52e252]:
+                - generic [ref=f52e253]: Popular
+                - generic [ref=f52e259]:
+                  - generic [ref=f52e260]: Query Booster
+                  - generic [ref=f52e261]: Need more monthly queries? Add 50 queries to any plan — use them to cover more LLMs, additional markets, extra languages, or run a deeper audit. Stack multiple boosters as needed.
+                  - generic [ref=f52e263]:
+                    - generic [ref=f52e264]: $
+                    - text: 9.99/mo per 50 queries
+                  - generic [ref=f52e265]: Available on Foundation, Ecom Powerhouse & Enterprise. Stack up to 5×.
+                - button "Show features" [ref=f52e267] [cursor=pointer]
+                - generic:
+                  - generic [ref=f52e271]: What's included
+                  - list [ref=f52e272]:
+                    - listitem [ref=f52e273]:
+                      - generic [ref=f52e277]: +50 tracked queries per month, added to your plan limit
+                    - listitem [ref=f52e278]:
+                      - generic [ref=f52e282]: "Use to expand coverage: more LLMs, markets, languages, or deeper audits"
+                    - listitem [ref=f52e283]:
+                      - generic [ref=f52e287]: Stack up to 5× boosters on a single plan
+                    - listitem [ref=f52e288]:
+                      - generic [ref=f52e292]: Unused queries don't roll over — resets each billing cycle
+                - button "Add Query Booster" [ref=f52e293] [cursor=pointer]
+              - generic [ref=f52e295]:
+                - generic [ref=f52e296]: Available now
+                - generic [ref=f52e304]:
+                  - generic [ref=f52e305]: Competitor Tracking
+                  - generic [ref=f52e306]: Track how a specific competitor appears across AI engines and benchmark your brand's visibility directly against theirs.
+                  - generic [ref=f52e308]:
+                    - generic [ref=f52e309]: $
+                    - text: 9.99/mo per competitor
+                  - generic [ref=f52e310]: Available on Foundation, Ecom Powerhouse & Enterprise. Track up to 3 competitors.
+                - button "Show features" [ref=f52e312] [cursor=pointer]
+                - generic:
+                  - generic [ref=f52e316]: What's included
+                  - list [ref=f52e317]:
+                    - listitem [ref=f52e318]:
+                      - generic [ref=f52e322]:
+                        - strong [ref=f52e323]: Side-by-side visibility scores
+                        - text: — your brand vs. competitor across every monitored AI engine
+                    - listitem [ref=f52e324]:
+                      - generic [ref=f52e328]:
+                        - strong [ref=f52e329]: Mention gap analysis
+                        - text: — queries where they appear and you don't, and vice versa
+                    - listitem [ref=f52e330]:
+                      - generic [ref=f52e334]:
+                        - strong [ref=f52e335]: Sentiment comparison
+                        - text: — how AI engines describe each brand and with what tone
+                    - listitem [ref=f52e336]:
+                      - generic [ref=f52e340]:
+                        - strong [ref=f52e341]: Track up to 3 competitors
+                        - text: — add one per booster, stack up to 3 on any plan
+                - button "Add Competitor Tracking" [ref=f52e342] [cursor=pointer]
+              - generic:
+                - generic: Soon
+                - generic:
+                  - generic: Analytics Suite
+                  - generic: Deep-dive trend analysis, share-of-voice benchmarking, and exportable brand intelligence reports.
+                  - generic: Pricing TBA
+                  - generic: Available for Foundation & Discovery plans
+                - button "Notify me when available" [ref=f52e344] [cursor=pointer]
+              - generic [ref=f52e345]:
+                - generic [ref=f52e346]: Available now
+                - generic [ref=f52e354]:
+                  - generic [ref=f52e355]: Strategy Consultation
+                  - generic [ref=f52e356]: 1-on-1 sessions with a GEO specialist to turn your visibility data into a prioritised action plan.
+                  - generic [ref=f52e358]:
+                    - generic [ref=f52e359]: from
+                    - text: 149/mo
+                  - generic [ref=f52e360]: Available for Foundation & Ecom Powerhouse. Included in Enterprise.
+                - button "Show features" [ref=f52e362] [cursor=pointer]
+                - generic:
+                  - generic [ref=f52e366]: What's included
+                  - list [ref=f52e367]:
+                    - listitem [ref=f52e368]:
+                      - generic [ref=f52e372]:
+                        - strong [ref=f52e373]: Monthly cadence — $149/mo
+                        - text: ": 1 strategy call per month"
+                    - listitem [ref=f52e374]:
+                      - generic [ref=f52e378]:
+                        - strong [ref=f52e379]: Bi-weekly cadence — $249/mo
+                        - text: ": 2 calls per month"
+                    - listitem [ref=f52e380]:
+                      - generic [ref=f52e384]:
+                        - strong [ref=f52e385]: 45 min per session
+                        - text: with a dedicated GEO specialist
+                    - listitem [ref=f52e386]:
+                      - generic [ref=f52e390]:
+                        - strong [ref=f52e391]: Personalised GEO roadmap
+                        - text: after each session with actionable next steps
+                    - listitem [ref=f52e392]:
+                      - generic [ref=f52e396]:
+                        - strong [ref=f52e397]: 1 domain per call
+                        - text: — flexible to switch domain between sessions
+                    - listitem [ref=f52e398]:
+                      - generic [ref=f52e402]:
+                        - strong [ref=f52e403]: Flexible scheduling
+                        - text: — book sessions at your own pace via calendar link
+                - button "Add Strategy Consultation to my plan" [ref=f52e404] [cursor=pointer]
+            - paragraph [ref=f52e406]:
+              - text: Add-ons are billed monthly alongside your base plan.
+              - link "Have questions?" [ref=f52e407] [cursor=pointer]:
+                - /url: "#faq"
+          - generic [ref=f52e410]:
+            - generic [ref=f52e411]:
+              - generic [ref=f52e412]: 100%
+              - generic [ref=f52e413]: Customer retention since launch
+            - generic [ref=f52e414]:
+              - generic [ref=f52e415]: 20+
+              - generic [ref=f52e416]: Active brands on platform
+            - generic [ref=f52e417]:
+              - generic [ref=f52e418]: "7"
+              - generic [ref=f52e419]: AI engines monitored in real time
+            - generic [ref=f52e420]:
+              - generic [ref=f52e421]: 500+
+              - generic [ref=f52e422]: Brands in pipeline
+          - generic [ref=f52e424]:
+            - generic [ref=f52e425]:
+              - generic [ref=f52e426]: Full Comparison
+              - heading "Everything, side by side" [level=2] [ref=f52e427]
+              - paragraph [ref=f52e428]: See exactly what each plan includes before you commit.
+            - table [ref=f52e430]:
+              - rowgroup [ref=f52e431]:
+                - row [ref=f52e432]:
+                  - columnheader [ref=f52e433]
+                  - columnheader "Foundation" [ref=f52e434]
+                  - columnheader "Ecom Powerhouse" [ref=f52e435]
+                  - columnheader "Enterprise" [ref=f52e436]
+              - rowgroup [ref=f52e437]:
+                - row [ref=f52e438]:
+                  - cell "Queries & Coverage" [ref=f52e439]
+                - row [ref=f52e440]:
+                  - cell "Monthly queries" [ref=f52e441]
+                  - cell "60" [ref=f52e442]
+                  - cell "250" [ref=f52e443]
+                  - cell "Custom" [ref=f52e445]
+                - row [ref=f52e447]:
+                  - cell "AI engines (LLMs)" [ref=f52e448]
+                  - cell "2" [ref=f52e449]
+                  - cell "5" [ref=f52e450]
+                  - cell "Custom" [ref=f52e452]
+                - row [ref=f52e454]:
+                  - cell "Markets / regions" [ref=f52e455]
+                  - cell "2" [ref=f52e456]
+                  - cell "5" [ref=f52e457]
+                  - cell "Custom" [ref=f52e459]
+                - row [ref=f52e461]:
+                  - cell "Tracked competitors" [ref=f52e462]
+                  - cell "1" [ref=f52e463]
+                  - cell "3" [ref=f52e464]
+                  - cell "Custom" [ref=f52e466]
+                - row [ref=f52e468]:
+                  - cell "Custom query libraries" [ref=f52e469]
+                  - cell [ref=f52e470]
+                  - cell [ref=f52e474]
+                  - cell [ref=f52e478]
+                - row [ref=f52e482]:
+                  - cell "Core Platform" [ref=f52e483]
+                - row [ref=f52e484]:
+                  - cell "Overview Dashboard" [ref=f52e485]
+                  - cell [ref=f52e486]
+                  - cell [ref=f52e490]
+                  - cell [ref=f52e494]
+                - row [ref=f52e498]:
+                  - cell "GEO Analysis" [ref=f52e499]
+                  - cell [ref=f52e500]
+                  - cell [ref=f52e504]
+                  - cell [ref=f52e508]
+                - row [ref=f52e512]:
+                  - cell "SEO Analysis" [ref=f52e513]
+                  - cell [ref=f52e514]
+                  - cell [ref=f52e518]
+                  - cell [ref=f52e522]
+                - row [ref=f52e526]:
+                  - cell "Content Writer" [ref=f52e527]
+                  - cell [ref=f52e528]
+                  - cell [ref=f52e532]
+                  - cell [ref=f52e536]
+                - row [ref=f52e540]:
+                  - cell "Optimization Hub" [ref=f52e541]
+                  - cell [ref=f52e542]
+                  - cell [ref=f52e546]
+                  - cell [ref=f52e550]
+                - row [ref=f52e554]:
+                  - cell "Agentic Shopping" [ref=f52e555]
+                  - cell "—" [ref=f52e556]
+                  - cell [ref=f52e557]
+                  - cell [ref=f52e561]
+                - row [ref=f52e565]:
+                  - cell "Analytics Suite" [ref=f52e566]
+                  - cell "—" [ref=f52e567]
+                  - cell "Soon" [ref=f52e568]
+                  - cell "Soon" [ref=f52e570]
+                - row [ref=f52e572]:
+                  - cell "Content Writer" [ref=f52e573]
+                - row [ref=f52e574]:
+                  - cell "Recommended Articles / mo" [ref=f52e575]
+                  - cell "10" [ref=f52e576]
+                  - cell "20" [ref=f52e577]
+                  - cell "Custom" [ref=f52e579]
+                - row [ref=f52e581]:
+                  - cell "Content Generator / mo" [ref=f52e582]
+                  - cell "5" [ref=f52e583]
+                  - cell "10" [ref=f52e584]
+                  - cell "Custom" [ref=f52e586]
+                - row [ref=f52e588]:
+                  - cell "Optimization Hub" [ref=f52e589]
+                - row [ref=f52e590]:
+                  - cell "Implementation Guidance" [ref=f52e591]
+                  - cell [ref=f52e592]
+                  - cell [ref=f52e596]
+                  - cell [ref=f52e600]
+                - row [ref=f52e604]:
+                  - cell "Total Optimizations / mo" [ref=f52e605]
+                  - cell "Up to 10" [ref=f52e606]
+                  - cell "Up to 20" [ref=f52e607]
+                  - cell "Unlimited" [ref=f52e609]
+                - row [ref=f52e611]:
+                  - cell "Content & Tone-Of-Voice" [ref=f52e612]
+                  - cell [ref=f52e613]
+                  - cell [ref=f52e617]
+                  - cell [ref=f52e621]
+                - row [ref=f52e625]:
+                  - cell "Technical & Performance" [ref=f52e626]
+                  - cell [ref=f52e627]
+                  - cell [ref=f52e631]
+                  - cell [ref=f52e635]
+                - row [ref=f52e639]:
+                  - cell "Digital PR & Positioning" [ref=f52e640]
+                  - cell [ref=f52e641]
+                  - cell [ref=f52e645]
+                  - cell [ref=f52e649]
+                - row [ref=f52e653]:
+                  - cell "Agentic Shopping Optimization" [ref=f52e654]
+                  - cell "—" [ref=f52e655]
+                  - cell [ref=f52e656]
+                  - cell [ref=f52e660]
+                - row [ref=f52e664]:
+                  - cell "Reporting & Access" [ref=f52e665]
+                - row [ref=f52e666]:
+                  - cell "Add-ons marketplace" [ref=f52e667]
+                  - cell [ref=f52e668]
+                  - cell [ref=f52e672]
+                  - cell [ref=f52e676]
+                - row [ref=f52e680]:
+                  - cell "Exportable reports (PDF/CSV)" [ref=f52e681]
+                  - cell [ref=f52e682]
+                  - cell [ref=f52e686]
+                  - cell [ref=f52e690]
+                - row [ref=f52e694]:
+                  - cell "Co-branded reporting" [ref=f52e695]
+                  - cell "—" [ref=f52e696]
+                  - cell "—" [ref=f52e697]
+                  - cell [ref=f52e698]
+                - row [ref=f52e702]:
+                  - cell "Support" [ref=f52e703]
+                - row [ref=f52e704]:
+                  - cell "Chat support" [ref=f52e705]
+                  - cell [ref=f52e706]
+                  - cell [ref=f52e710]
+                  - cell [ref=f52e714]
+                - row [ref=f52e718]:
+                  - cell "Email support" [ref=f52e719]
+                  - cell [ref=f52e720]
+                  - cell [ref=f52e724]
+                  - cell [ref=f52e728]
+                - row [ref=f52e732]:
+                  - cell "Priority support" [ref=f52e733]
+                  - cell "—" [ref=f52e734]
+                  - cell [ref=f52e735]
+                  - cell [ref=f52e739]
+                - row [ref=f52e743]:
+                  - cell "Onboarding session" [ref=f52e744]
+                  - cell "—" [ref=f52e745]
+                  - cell [ref=f52e746]
+                  - cell [ref=f52e750]
+                - row [ref=f52e754]:
+                  - cell "Dedicated account manager" [ref=f52e755]
+                  - cell "—" [ref=f52e756]
+                  - cell "—" [ref=f52e757]
+                  - cell [ref=f52e758]
+                - row [ref=f52e762]:
+                  - cell "SLA guarantee" [ref=f52e763]
+                  - cell "—" [ref=f52e764]
+                  - cell "—" [ref=f52e765]
+                  - cell [ref=f52e766]
+          - generic [ref=f52e772]:
+            - generic [ref=f52e773]:
+              - heading "Built for scale. Ready for enterprise." [level=3] [ref=f52e774]
+              - paragraph [ref=f52e775]: Custom query volumes, dedicated infrastructure, co-branded reporting, and a team that works alongside yours to drive AI visibility at enterprise scale.
+              - generic [ref=f52e776]:
+                - generic [ref=f52e777]: Volume pricing
+                - generic [ref=f52e779]: Custom SLAs
+                - generic [ref=f52e781]: Arabic-first support
+                - generic [ref=f52e783]: Dedicated CSM
+            - generic [ref=f52e785]:
+              - link "Book a demo" [ref=f52e786] [cursor=pointer]:
+                - /url: /contact
+              - link "Contact sales" [ref=f52e787] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=f52e789]:
+            - generic [ref=f52e790]:
+              - generic [ref=f52e791]: FAQ
+              - heading "Common questions" [level=2] [ref=f52e792]
+            - generic [ref=f52e793]:
+              - generic [ref=f52e794]:
+                - generic [ref=f52e795] [cursor=pointer]:
+                  - generic [ref=f52e796]:
+                    - generic [ref=f52e797]: What counts as a "query"?
+                    - generic [ref=f52e798]: +
+                  - generic: A query is a single prompt sent to an AI engine to measure your brand's visibility. For example, asking ChatGPT "What is the best CRM in Saudi Arabia?" counts as one query. Each query returns a scored response showing whether your brand was mentioned, how prominently, and in what context.
+                - generic [ref=f52e799] [cursor=pointer]:
+                  - generic [ref=f52e800]:
+                    - generic [ref=f52e801]: Which AI engines are supported?
+                    - generic [ref=f52e802]: +
+                  - generic: We currently support ChatGPT, Gemini, Perplexity, Meta AI, and Microsoft Copilot. Claude and DeepSeek are in active integration. Discovery and Foundation plans start with 2 LLMs; Ecom Powerhouse unlocks 5; Enterprise is custom.
+                - generic [ref=f52e803] [cursor=pointer]:
+                  - generic [ref=f52e804]:
+                    - generic [ref=f52e805]: Can I switch plans at any time?
+                    - generic [ref=f52e806]: +
+                  - generic: Yes. You can upgrade immediately — your new limits apply right away. Downgrades take effect at the next billing cycle. There are no penalties or long-term commitments on monthly plans.
+                - generic [ref=f52e807] [cursor=pointer]:
+                  - generic [ref=f52e808]:
+                    - generic [ref=f52e809]: Is there a free trial?
+                    - generic [ref=f52e810]: +
+                  - generic: The Discovery plan at $7.99/month is designed as a low-risk entry point. Foundation starts at $9.99 for the first month, then $19.99/mo after. Reach out to our team if you need a custom evaluation period for Enterprise.
+              - generic [ref=f52e811]:
+                - generic [ref=f52e812] [cursor=pointer]:
+                  - generic [ref=f52e813]:
+                    - generic [ref=f52e814]: What languages do you support?
+                    - generic [ref=f52e815]: +
+                  - generic: Zaher.AI is Arabic-first by design. Our query library, scoring models, and reports are built for Arabic-speaking markets including Saudi Arabia, UAE, Egypt, and the broader MENA region. English is also fully supported on all plans.
+                - generic [ref=f52e816] [cursor=pointer]:
+                  - generic [ref=f52e817]:
+                    - generic [ref=f52e818]: How is billing handled?
+                    - generic [ref=f52e819]: +
+                  - generic: We accept all major credit cards. Monthly plans are billed on the same day each month. Quarterly plans are billed every 3 months and save you 20%. All transactions are secured via Stripe.
+                - generic [ref=f52e820] [cursor=pointer]:
+                  - generic [ref=f52e821]:
+                    - generic [ref=f52e822]: What's the difference between markets and LLMs?
+                    - generic [ref=f52e823]: +
+                  - generic: Markets are geographic/linguistic segments (e.g., Saudi Arabia in Arabic, UAE in English). LLMs are the AI engines being queried (ChatGPT, Gemini, etc.). You can track the same brand across different markets and across different AI engines to see how visibility varies.
+                - generic [ref=f52e824] [cursor=pointer]:
+                  - generic [ref=f52e825]:
+                    - generic [ref=f52e826]: Do you offer refunds?
+                    - generic [ref=f52e827]: +
+                  - generic: Monthly subscribers can cancel anytime. Cancellation takes effect at the end of the current billing period. For billing questions, contact support@zaher.ai or see our Refund Policy.
+          - generic [ref=f52e829]:
+            - generic [ref=f52e830]: Start today
+            - heading "Your brand is being described by AI right now. Do you know what it's saying?" [level=2] [ref=f52e831]: Your brand is being describedby AI right now. Do you know what it's saying?
+            - paragraph [ref=f52e832]: Join 20+ brands already measuring and improving their AI visibility across the engines that matter most.
+            - generic [ref=f52e833]:
+              - link "Start with Discovery — $7.99" [ref=f52e834] [cursor=pointer]:
+                - /url: /signup
+              - link "Talk to sales" [ref=f52e835] [cursor=pointer]:
+                - /url: "#enterprise"
+        - generic [ref=f52e837]:
+          - generic [ref=f52e838]:
+            - generic [ref=f52e839]:
+              - generic [ref=f52e840]:
+                - text: Zaher.AI
+                - emphasis [ref=f52e841]: ظاهر
+              - paragraph [ref=f52e842]: The AI Visibility Infrastructure platform for Arabic-first and MENA brands. Measure, simulate, and optimize how your brand appears inside AI-generated answers.
+            - generic [ref=f52e843]:
+              - heading "Platform" [level=4] [ref=f52e844]
+              - link "Overview Dashboard" [ref=f52e845] [cursor=pointer]:
+                - /url: /modules/overview-dashboard
+              - link "GEO Analysis" [ref=f52e846] [cursor=pointer]:
+                - /url: /modules/geo-analysis
+              - link "Optimization Hub" [ref=f52e847] [cursor=pointer]:
+                - /url: /modules/optimization-hub
+              - link "Content Writer" [ref=f52e848] [cursor=pointer]:
+                - /url: /modules/content-writer
+              - link "SEO Engine" [ref=f52e849] [cursor=pointer]:
+                - /url: /modules/seo-engine
+              - link "Agentic Shopping" [ref=f52e850] [cursor=pointer]:
+                - /url: /modules/agentic-shopping
+              - link "Analytics Suite" [ref=f52e851] [cursor=pointer]:
+                - /url: /modules/analytics-suite
+              - link "AI Optimization Agent" [ref=f52e852] [cursor=pointer]:
+                - /url: /modules/ai-optimization-agent
+            - generic [ref=f52e853]:
+              - heading "Company" [level=4] [ref=f52e854]
+              - link "About Zaher" [ref=f52e855] [cursor=pointer]:
+                - /url: /about
+              - link "Research Reports" [ref=f52e856] [cursor=pointer]:
+                - /url: /research
+              - link "Pricing" [ref=f52e857] [cursor=pointer]:
+                - /url: /pricing
+              - link "Contact" [ref=f52e858] [cursor=pointer]:
+                - /url: /contact
+            - generic [ref=f52e859]:
+              - heading "Legal" [level=4] [ref=f52e860]
+              - link "Privacy Policy" [ref=f52e861] [cursor=pointer]:
+                - /url: /privacy
+              - link "Terms of Service" [ref=f52e862] [cursor=pointer]:
+                - /url: /terms
+              - link "Disclaimer" [ref=f52e863] [cursor=pointer]:
+                - /url: /disclaimer
+              - link "Cookie Policy" [ref=f52e864] [cursor=pointer]:
+                - /url: /cookies
+          - generic [ref=f52e866]:
+            - text: © 2026 Zaher For AI Solutions LLC ·
+            - link "Privacy" [ref=f52e867] [cursor=pointer]:
+              - /url: /privacy
+            - text: ·
+            - link "Terms" [ref=f52e868] [cursor=pointer]:
+              - /url: /terms
+  - generic [ref=f52e875] [cursor=pointer]:
+    - generic [ref=f52e876]: Your AI Visibility is just a chat away! ✨
+    - button "Close" [ref=f52e877]: ×
+  - button "Open support chat" [ref=f52e869] [cursor=pointer]:
+    - img "Zaher AI" [ref=f52e870]
+  - dialog "Zaher AI Chat":
+    - generic:
+      - generic:
+        - img "Zaher"
+      - generic:
+        - generic: Zaher AI Assistant
+        - generic: Online · Any Language & Dialect
+      - button "Conversations"
+      - button "New conversation"
+    - generic:
+      - textbox "Ask about AI visibility…"
+      - button "Send message" [disabled]
+    - generic: Powered by Zaher.AI · AI Visibility Infrastructure

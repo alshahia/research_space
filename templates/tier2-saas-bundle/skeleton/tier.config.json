@@ -1,0 +1,27 @@
+{
+  "templateId": "tier2-saas-bundle",
+  "tier": 2,
+  "kind": 5,
+  "title": "SaaS Bundle Skeleton",
+  "locale": "en",
+  "dir": "ltr",
+  "font": "system-sans",
+  "defaults": {
+    "auth": "clerk-react",
+    "paymentProvider": "stripe",
+    "emailProvider": "resend",
+    "ssr": false,
+    "reactRouterMode": "declarative",
+    "server": "express"
+  },
+  "featureFlags": {
+    "signIn": true,
+    "signUp": true,
+    "pricing": true,
+    "checkout": true,
+    "customerPortal": true,
+    "webhookVerification": true,
+    "idempotencyTable": false,
+    "postgres": false
+  }
+}

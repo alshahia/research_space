@@ -1,0 +1,23 @@
+
+# Platform (Iraqi website builder)
+platform/node_modules/
+platform/.next/
+platform/out/
+platform/.env
+platform/.env.local
+platform/drizzle/
+# CocoIndex Code (ccc)
+/.cocoindex_code/
+
+# IDE / tool caches
+/.kilo/
+/.playwright-mcp/
+/.agents-manager-backup-*/
+
+# Separate Unity project (own .git)
+/unity-moba/
+
+# Local scratch / backups
+/null
+/stderr.log
+/CLAUDE.md.backup.*.md
