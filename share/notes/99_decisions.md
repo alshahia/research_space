@@ -378,3 +378,19 @@ Shared `src/lib/deepLinking.ts` adapts both: Expo `Linking.addEventListener('url
 - `share/handoffs/00_decisions_T-2026-08-14-001.md` — Phase 2 Gate E section appended.
 
 **Reversibility:** ~3h of work. Drop `server.ts` + Express deps; revert `src/router.tsx` to use `createStaticHandler` + `createBrowserRouter` with server bundle; convert `src/routes/*.tsx` to `app/routes/*.tsx`; convert `src/components/*.tsx` to `app/components/*.tsx`; swap `@clerk/clerk-react` → `@clerk/nextjs`; add `next.config.mjs`. Plan stays validated against the original Next.js 15 lock.
+
+## 2026-08-18 — Task-id reuse collision: renumber to T-2026-08-18-003, restore committed files
+
+**Source:** master created a new task for "3 OpenCode SDK agent examples" and assigned it T-2026-08-18-002 without first checking whether that id was already taken. It was: commit `e7f375d` ("Add Capacitor 8.5.0 agent-facing dossier (T-2026-08-18-002)") had already committed `tasks/T-2026-08-18-002.md`, `share/handoffs/00_user_task_T-2026-08-18-002.md`, and `share/notes/00_trace_T-2026-08-18-002.jsonl` for a task closed READY_TO_SHIP the same day. The planning dispatch then overwrote the committed handoff + tracker and appended 2 lines to the committed trace before its own anomaly surfacing caught it.
+
+**Decision:**
+
+1. **Restore, never overwrite committed artifacts.** Recovered all three committed files content-identical from HEAD via `git show HEAD:<path>` + write-back; verified with `git diff --ignore-cr-at-eol` (clean; only CRLF-normalization noise remains in status).
+2. **Renumber the new task to `T-2026-08-18-003`** — the next free id (verified by glob before use). All its artifacts carry the -003 suffix: tracker, handoff, plan, trace.
+3. **Leave the Capacitor artifacts byte-intact** on disk — they are the canonical record of their own closed task and were never touched beyond the repair.
+4. **Turn the collided plan path into an explicit stub** (`share/notes/02_plan_T-2026-08-18-002.md` points to the -003 canonical plan) so any stale reference resolves loudly instead of silently.
+5. **Policy (rule) change for master:** BEFORE assigning a task id, glob `**/*T-YYYY-MM-DD-NNN*` and confirm the id is unused across `tasks/`, `share/**`, and any deliverable folder. This mirrors the planner-episodic reconciliation pattern the am-planning agent recorded.
+
+**Scope:** this decision applies to the OpenCode SDK agent-examples task (now T-2026-08-18-003) and to every future id assignment. The Capacitor dossier (T-2026-08-18-002) is unaffected.
+
+**Reversibility:** trivial-structural. The renumber is frozen at plan time; restoring the old -002 id for the SDK task would re-collide with the Capacitor artifacts and is NOT advisable. The stub + decision entry can be removed once the task closes.
