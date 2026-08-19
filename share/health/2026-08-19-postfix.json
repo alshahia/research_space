@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-19",
+  "run_id": "postfix",
+  "composite": 10.0,
+  "verdict": "PASS",
+  "shellspec_dispatched": ["validate-frontmatter.py", "py_compile", "shellcheck"],
+  "dimensions": {
+    "frontmatter": {
+      "score": 10,
+      "exit": 0,
+      "files_checked": 12,
+      "files_passed": 12,
+      "files_failed": 0,
+      "findings": []
+    },
+    "python": {
+      "score": 10,
+      "exit": 0,
+      "files_checked": 4,
+      "findings": []
+    },
+    "shell": {
+      "score": null,
+      "exit": null,
+      "files_checked": 0,
+      "skip_reason": "shellcheck binary unavailable (npx auto-download rate-limited 403); recommended install via `winget install koalaman.shellcheck` or via the agents-manager install profile",
+      "findings": []
+    }
+  },
+  "weighting_used": {
+    "frontmatter": 0.50,
+    "python": 0.50,
+    "shell": 0.00,
+    "shell_redistributed_to": ["frontmatter", "python"],
+    "rationale": "shellcheck unavailable; weights redistributed proportionally per agents_manager/health/SKILL.md § Scoring rubric"
+  },
+  "trend": {
+    "vs_prev": "+5.0 (vs share/health/2026-08-19.json, composite 5.0)",
+    "vs_7d_avg": "n/a (2 entries on 2026-08-19; avg 7.5)"
+  },
+  "fixes_applied": {
+    "by": "am-coder in-line (subagent dispatch bindingFailure; protocol from agents_manager/coder/SKILL.md)",
+    "summary": "share/notes/03_coder_summary_T-2026-08-19-001_healthfix.md",
+    "files_changed": ["scripts/validate-frontmatter.py"],
+    "files_unchanged": [
+      "agents_manager/SKILL.md (BOM file; validator now BOM-tolerant)",
+      "agents_manager/research/SKILL.md (BOM file; same)",
+      "agents_manager/review/SKILL.md (BOM file; same)"
+    ],
+    "rule_8_compliance": "Per am-coder rule 8 ('Do not edit files inside agents_manager/'), no files under agents_manager/<role>/SKILL.md were modified. The BOM tolerance lives in the controller-script validator (scripts/validate-frontmatter.py), not in the controller's specialist files."
+  },
+  "metadata": {
+    "ran_by": "am-health in-line (skill not in available catalog; protocol from agents_manager/health/SKILL.md)",
+    "ran_at_utc": "2026-08-19T10:23:00+03:00",
+    "python_interpreter": "C:\\Python313\\python.exe (3.13.7)",
+    "working_tree": "dirty (post-fix; will commit/push as part of Phase 5 close-out)",
+    "branch": "master (base; no commit yet pending this run)",
+    "agents_manager_version_top": "v0.22.0 - chub-gate (2026-07-24)"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-08-19",
+  "composite": 5.0,
+  "verdict": "FAIL",
+  "shellspec_dispatched": ["validate-frontmatter.py", "py_compile", "shellcheck"],
+  "dimensions": {
+    "frontmatter": {
+      "score": 0,
+      "exit": 1,
+      "files_checked": 12,
+      "files_passed": 9,
+      "files_failed": 3,
+      "findings": [
+        "scripts/validate-frontmatter.py:74 - returns list (1-tuple) instead of (errors, mode) tuple when parse_frontmatter raises ValueError; main() crashes with `not enough values to unpack`",
+        "agents_manager/SKILL.md:1 - UTF-8 BOM (EF BB BF) precedes the `---`; parse_frontmatter rejects with `must start with `---` on line 1`",
+        "agents_manager/research/SKILL.md:1 - same UTF-8 BOM",
+        "agents_manager/review/SKILL.md:1 - same UTF-8 BOM"
+      ]
+    },
+    "python": {
+      "score": 10,
+      "exit": 0,
+      "files_checked": 3,
+      "findings": []
+    },
+    "shell": {
+      "score": null,
+      "exit": null,
+      "files_checked": 0,
+      "skip_reason": "shellcheck binary unavailable (npx auto-download rate-limited 403; no local install)",
+      "findings": []
+    }
+  },
+  "weighting_used": {
+    "frontmatter": 0.50,
+    "python": 0.50,
+    "shell": 0.00,
+    "shell_redistributed_to": ["frontmatter", "python"],
+    "rationale": "shellcheck unavailable; weights redistributed proportionally"
+  },
+  "trend": {
+    "vs_prev": "n/a (first entry)",
+    "vs_7d_avg": "n/a (first entry)"
+  },
+  "metadata": {
+    "ran_by": "am-health in-line (skill not in available catalog; protocol read from agents_manager/health/SKILL.md)",
+    "ran_at_utc": "2026-08-19T09:50:00+03:00",
+    "python_interpreter": "C:\\Python313\\python.exe (3.13.7)",
+    "working_tree": "dirty (80 paths), branch=master (base)",
+    "agents_manager_version_top": "v0.22.0 - chub-gate (2026-07-24)"
+  }
+}
