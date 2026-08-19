@@ -1,0 +1,157 @@
+{
+  "existence": {
+    "00_README.md": true,
+    "01_prerequisites.md": true,
+    "progress.md": true
+  },
+  "lines": {
+    "00_README.md": 83,
+    "01_prerequisites.md": 100,
+    "progress.md": 53
+  },
+  "em_dash": {
+    "00_README.md": 0,
+    "01_prerequisites.md": 0,
+    "progress.md": 0
+  },
+  "en_dash": {
+    "00_README.md": 0,
+    "01_prerequisites.md": 0,
+    "progress.md": 0
+  },
+  "md_links_in_readme": "set()",
+  "referenced_anywhere": "{'11_live_validation.md', '05_lifecycle.md', '04_api_map.md', '02_quickstart.md', '10_known_issues_and_troubleshooting.md', '00_README.md', '06_security.md', '03_decision_guide.md', '07_errors.md', '08_events.md', '09_examples.md', '99_sources.md', '01_prerequisites.md'}",
+  "missing_in_any_reference": [
+    "progress.md"
+  ],
+  "readme_cites": [
+    "[S17]",
+    "[S1]",
+    "[S2]",
+    "[S3]"
+  ],
+  "prereq_cites": [
+    "[S10]",
+    "[S17]",
+    "[S2]",
+    "[S3]"
+  ],
+  "prog_cites": [
+    "[S1]",
+    "[S22]"
+  ],
+  "out_of_range": {
+    "readme": [],
+    "prereq": [],
+    "prog": []
+  },
+  "missing_from_canonical_research": [],
+  "research_ledger_size": 22,
+  "freshness_footer": {
+    "00_README.md": true,
+    "01_prerequisites.md": true,
+    "progress.md": true
+  },
+  "scan": {
+    "00_README.md": {
+      "secrets": [],
+      "auth_paths": []
+    },
+    "01_prerequisites.md": {
+      "secrets": [],
+      "auth_paths": []
+    },
+    "progress.md": {
+      "secrets": [],
+      "auth_paths": []
+    }
+  },
+  "health_import": true,
+  "health_uses_data": true,
+  "version_skew_wording": {
+    "shape-compatible": 1,
+    "same-minor-patch-delta-15": 3,
+    "does NOT claim compatibility from semver": 1,
+    "does NOT establish compatibility": 0,
+    "compatible": 2
+  },
+  "progress_table_rows": [
+    [
+      1,
+      "00_README.md"
+    ],
+    [
+      2,
+      "01_prerequisites.md"
+    ],
+    [
+      3,
+      "progress.md"
+    ],
+    [
+      4,
+      "02_quickstart.md"
+    ],
+    [
+      5,
+      "03_decision_guide.md"
+    ],
+    [
+      6,
+      "04_api_map.md"
+    ],
+    [
+      7,
+      "05_lifecycle.md"
+    ],
+    [
+      8,
+      "06_security.md"
+    ],
+    [
+      9,
+      "07_errors.md"
+    ],
+    [
+      10,
+      "08_events.md"
+    ],
+    [
+      11,
+      "09_examples.md"
+    ],
+    [
+      12,
+      "11_live_validation.md"
+    ],
+    [
+      13,
+      "10_known_issues_and_troubleshooting.md"
+    ],
+    [
+      14,
+      "99_sources.md"
+    ]
+  ],
+  "progress_row_count": 14,
+  "progress_statuses": [
+    "done",
+    "done",
+    "done",
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending"
+  ],
+  "progress_done_count": 3,
+  "progress_pending_count": 11,
+  "progress_zen_go_policy": true,
+  "provider_presence_chunk_excerpt": "## Secure provider-presence guidance\n\nThe dossier never reads, prints, copies, exports, or stores any credential. It never names an auth-file path, never parses one, never chmods one, never stats one. If your agent needs to confirm a provider is configured, use the CLI's built-in listing (which redacts the key) -- this is the only provider-presence check the dossier recommends:\n\n```sh\nopencode providers list\n# Expected: a list of provider IDs. The first match for Zen looks like:\n#   opencode                  openai-compat        OpenCode Zen [api]\n#   opencode                  openai-compat        OpenCode Zen [oauth]\n# The key is never printed. Do not paste the key into a file, a script,\n# an environment variable dump, or this dossier.\n```\n\nIf `opencode providers list` returns nothing for Zen, your agent should treat the Zen provider as not configured and stop; do not fall back to a paid model, do not read the global config file, do not set environment variables from outside this dossier. The bounded live-validation matrix in Phase 3E2 documents `SKIP-NotConfigured` as the official verdict for that case.\n\n## Troubleshooting\n\n| Symptom | Likely cause | Fix |\n|---|---|---|\n| `openco"
+}
